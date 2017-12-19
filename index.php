@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+
+		<script type="text/javascript"  src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- google md -->
+		<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.light_blue-blue.min.css">
+		<script defer type="text/javascript" src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- Jquery UI -->
+		<script type="text/javascript" src="import/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="import/jquery-ui.structure.min.css">
+		<link rel="stylesheet" href="import/jquery-ui.min.css">
+		<!-- masonry -->
+		<script type="text/javascript" src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+		<!-- font-awesome-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<!-- fullPage.js-->
+		<link rel="stylesheet" type="text/css" href="import/jquery.fullPage.css" >
+		<script type="text/javascript" src="import/jquery.slimscroll.min.js"></script>
+		<script type="text/javascript" src="import/jquery.fullPage.js"></script>
+		<!-- Timeline -->
+		<link rel="stylesheet" type="text/css" href="import/timeline/timeline.css" >
+		<!-- Diagram -->
+		<link href="import/responsive-skills/style.css" rel="stylesheet" type="text/css" >
+		<!-- my js & css-->
+		<script type="text/javascript" src="all.js"></script>
+		<link rel="stylesheet" href="all.css">
+		<!-- easterEggs -->
+		<script type="text/javascript" src="easterEggs/ee.js"></script>
+		<script type="text/javascript" src="easterEggs/shortcut.js"></script>
+		<script type="text/javascript" src="easterEggs/snowfall.min.jquery.js"></script>
+		
+		<link rel="icon" type="image/jpg" href="img/blue_circle.png" >
+		<title>GLecun</title>
+	</head>
+	<body>
+		<!-- Loader-->
+		<div class="loader">
+			<div class="centre">
+				<div class="mdl-spinner mdl-spinner--single-color mdl-js-spinner is-active"></div>
+			</div>
+		</div>
+		
+		<div id="fullpage">
+			<div class="section colored">
+				<div id="triangle-topleft"></div>
+				<div class="welcome-message">
+				   <div class="heading">
+					  <p>GRÉGOIRE LE CUN</p>
+					  <p class="small">Dévelopeur Web Junior <i class="fa fa-at"></i> Foncia Groupe</p>
+				   </div>
+				   <a href="#aboutMe" class="borderBtnBlue">VOIR PLUS</a>
+				</div>
+			</div>
+			<div class="section">
+				<!-- nav Bar-->
+				<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+					<header class="mdl-layout__header">
+						<div class="mdl-layout__header-row">
+						  <div style="margin:0 auto;text-align:center;">
+							<nav class="mdl-navigation">
+								<a class="mdl-navigation__link" href="#welcome">Bienvenue</a>
+								<a class="mdl-navigation__link" href="#aboutMe">À propos</a>
+								<a class="mdl-navigation__link" href="#formation">Formation & Éxperiences</a>
+								<a class="mdl-navigation__link" href="#skills">Compétences</a>
+								<a class="mdl-navigation__link" href="#projects">Réalisations</a>
+								<a class="mdl-navigation__link" href="#contact">Contact</a>
+							</nav>		
+						  </div>
+						</div>
+					</header>
+
+					<main class="mdl-layout__content">
+						<div id="horLigne1" class="horizontalBlueLigne"></div>
+						<div class="center">
+							<div id ="imgMe" class="contourCircle">
+								<div class="borderdiv"></div>
+								<div class="whitediv top active"></div>
+								<div class="whitediv bot active"></div>
+								<img alt=""  id="me" src="img/me.jpg" class="img-circle">
+							</div>
+							<div id="verticalLigne1" style="left:auto;margin: 0px auto;display: block;position:static;" class="verticalBlueLigne"></div>
+							<p id="aboutMeinfo" class="cadreBlue">Apprenti de 22 ans actuellement en contrat d'alternance chez Foncia Groupe en tant que développeur web Java dans le cadre de la préparation d'un Diplôme d'ingénieur en Informatique & Réseaux en Alternance.
+							</p>
+							<div id="verticalLigne2" style="margin: 0px auto;display: block;" class="verticalBlueLigne"></div>
+							<a id="butCv" href="cv/cv_greg.xml" style="display:inline-block;" class="borderBtnWhite">Voir CV</a>
+						</div>
+					</main>
+				</div>
+			</div>
+			<div class="section colored">
+				<div class="divider"></div>
+				<div class="heading">
+				   <h2 class="white">FORMATION & ÉXPERIENCES</h2>
+				   <div class="divTimeline">
+					   <ul class="timeline">
+							<li>
+								<div class="direction-l">
+									<div class="flag-wrapper">
+										<div class="flag topFlagl">
+											<span class="spanTitle"><img alt=""  src="img/galilee.png" height="33" />École d'Ingénieur Sup'Galilée</span><br>
+											<span class="desc">Diplôme d'ingénieur Informatique & Réseaux en apprentissage</span>
+										</div>
+										<span class="time-wrapper"><span class="time">septembre 2014 – aujourd’hui</span></span>
+									</div>
+								</div>
+							</li>
+							<li class="topLir">
+								<div class="direction-r">
+									<div class="flag-wrapper">
+										<div class="flag">
+											<span class="spanTitle"><img alt=""  src="img/foncia.png" height="33" />Foncia Groupe</span><br>
+											<span class="desc">Développeur Web Java</span>
+										</div>
+										<span class="time-wrapper"><span class="time">septembre 2014 – aujourd’hui</span></span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="direction-r">
+									<div class="flag-wrapper">
+										<div class="flag">
+											<span class="spanTitle"><img alt=""  src="img/foncia.png" height="33" />Foncia Groupe</span><br>
+											<span class="desc">Développeur Web Php</span>
+										</div>
+										<span class="time-wrapper"><span class="time">septembre 2013 – août 2014 </span></span>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="direction-l">
+									<div class="flag-wrapper">
+										<div class="flag">
+											<span class="spanTitle"><img alt=""  src="img/logo.png" height="33" />Iut Villetaneuse</span><br>
+											<span class="desc">DUT Informatique en apprentissage</span>
+										</div>
+										<span class="time-wrapper"><span class="time">septembre 2012 – août 2014 </span></span>
+									</div>
+								</div>
+							</li>
+							<li class="botLir">
+								<div class="direction-r">
+									<div class="flag-wrapper">
+										<div class="flag">
+											<span class="spanTitle"><img alt=""  src="img/foncia.png" height="33" />Foncia Groupe</span><br>
+											<span class="desc">Administrateur Système</span>
+										</div>
+										<span class="time-wrapper"><span class="time">septembre 2012 - août 2013</span></span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div class="divider"></div>
+				<div class="heading">
+				   <h2 class="blue">COMPÉTENCES</h2>
+					<dl class="skills-diagram">
+					  <dt class="skill-6">UML</dt><dd></dd>
+					  <dt class="skill-7">ElasticSearch</dt><dd></dd>
+					  <dt class="skill-5">Symfony2</dt><dd></dd>
+					  <dt class="skill-8">JSF2</dt><dd></dd>
+					  <dt class="skill-8">UNIX</dt><dd></dd>
+					  <dt class="skill-2">Ruby</dt><dd></dd>
+					  <dt class="skill-7">SQL</dt><dd></dd>
+					  <dt class="skill-10">Java</dt><dd></dd>
+					  <dt class="skill-6">Python</dt><dd></dd>
+					  <dt class="skill-2">Aws</dt><dd></dd>
+					  <dt class="skill-7">XML</dt><dd></dd>
+					  <dt class="skill-6">HTML5</dt><dd></dd>
+					  <dt class="skill-8">JQuery</dt><dd></dd>
+					  <dt class="skill-6">CSS3</dt><dd></dd>
+					  <dt class="skill-2 smallest">Puppet</dt><dd></dd>
+					  <dt class="skill-5">Apache</dt><dd></dd>
+					  <dt class="skill-9">PHP</dt><dd></dd>
+					  <dt class="skill-7">C</dt><dd></dd>
+					  <dt class="skill-7">Wordpress</dt><dd></dd>
+					  <dt class="skill-4">Unity</dt><dd></dd>
+					  <dt class="skill-4">C#</dt><dd></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="section colored">
+				<div class="divider"></div>
+				<div class="heading">
+				   <h2 class="white">RÉALISATIONS</h2>
+					<div id="masonry" class="projetsDiv">
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand colorline">
+							<h2 class="mdl-card__title-text whiteText">ColorLine</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							Jeu de reflexion pour Android réalisé avec Unity.
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="https://play.google.com/store/apps/details?id=com.gle.colorline" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Page
+							</a>
+							<div class="year"><span>2016 - 2017</span></div>
+						  </div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand glecuntech">
+							<h2 class="mdl-card__title-text">GlecunTech</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							Site web réalisé "from scratch" qui liste l'ensemble des technologies que j'utilise.
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="http://gregoire.lecun.free.fr/glecuntech/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Page
+							</a>
+							<div class="year"><span>2016</span></div>
+						  </div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand lecocondecurson">
+							<h2 class="mdl-card__title-text whiteText">Le Cocon De Curson</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							Site vitrine réalisé avec Wordpress pour un domaine possédant des gîtes et des chambres d'hôtes
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="http://www.lecocondecurson.fr/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Page
+							</a>
+							<div class="year"><span>2014 - Aujourd'hui</span></div>
+						  </div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand spaceInvaders">
+							<h2 class="mdl-card__title-text whiteText">Space Invaders</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							Jeu réalisé en Java graphique dans le cadre de ma formation d'ingénieur Informatique & Réseaux.
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="export/spaceInvaders.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Sources
+							</a>
+							<div class="year"><span>2015</span></div>
+						  </div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand stars">
+							<h2 class="mdl-card__title-text whiteText">Stars</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							Jeu réalisé en Python orienté objet avec la librairie graphique Pygame par envie personnel.
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="export/stars.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Sources
+							</a>
+							<div class="year"><span>2013</span></div>
+						  </div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand vaispace">
+							<h2 class="mdl-card__title-text whiteText">Vaispace</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							Un autre jeu réalisé en Python orienté objet avec la librairie graphique Pygame par envie personnel.
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="export/vaispace.zip" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Sources
+							</a>
+							<div class="year"><span>2013</span></div>
+						  </div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+						  <div class="mdl-card__title mdl-card--expand musique">
+							<h2 class="mdl-card__title-text whiteText">Musiques</h2>
+						  </div>
+						  <div class="mdl-card__supporting-text">
+							J'éprouve une passion pour la musique et je pratique occasionnellement de la guitare ou de la guitare-basse.
+						  </div>
+						  <div class="mdl-card__actions mdl-card--border">
+							<a href="perso/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+							  Voir Page
+							</a>
+							<div class="year"><span>2010 - Ajourd'hui</span></div>
+						  </div>
+						</div>
+					</div>
+					<!-- Pour charger les images -->
+					<img alt=""  src="img/spaceInvaders.gif" style="display:none;"/>
+					<img alt=""  src="img/sysr.gif" style="display:none;"/>
+					<img alt=""  src="img/stars.gif" style="display:none;"/>
+					<img alt=""  src="img/vaispace.gif" style="display:none;"/>
+					<img alt=""  src="img/glecuntech.gif" style="display:none;"/>
+				</div>
+			</div>
+			<div class="section">
+				<div class="divider"></div>
+				<div class="heading">
+				<h2 class="blue Hcontact">CONTACT</h2>
+					<div class="divRight">
+						<i class="fa faContact fa-map-marker"></i> Eaubonne <br>
+						<i class="fa faContact fa-globe"></i> http://glecun.fr <br>
+						<i class="fa faContact fa-envelope-o"></i> gregoire.lecun@free.fr <br>
+						<i class="fa faContact fa-linkedin-square"></i> <a class="social" href="https://fr.linkedin.com/pub/grégoire-le-cun/ab/298/2a4"> Lien </a>
+					</div>
+				</div>
+				<div class="map">
+					<iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20944.13493544079!2d2.27808495!3d48.991236449999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e667db1fa6a5af%3A0x40b82c3688b33a0!2sEaubonne!5e0!3m2!1sfr!2sfr!4v1437486026098" width="400" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+		</div>
+		
+	</body>
+</html>

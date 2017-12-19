@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="cv_greg.xsl" type="text/xsl" ?>
+
+<!DOCTYPE cv SYSTEM "cv_greg.dtd"> 
+<cv xmlns="http://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3schools.com cv_greg.xsd">
+	<lang>EN</lang>
+	<general>
+		<nom>Le Cun</nom>
+		<prenom>Grégoire</prenom>
+		<emploi_actuelle>Web Junior Developer</emploi_actuelle>
+		<description>I'm a 22 years old apprentice currently under a study contract in Foncia Group as a JAVA developer as part of the preparation of my computer engineer degree.</description>
+		<adresse>Eaubonne, 95600</adresse>
+		<telephone/>
+		<url_site>http://glecun.fr</url_site>
+		<email>gregoire.lecun@free.fr</email>
+		<url_photo>http://glecun.fr/img/me2.jpg</url_photo>
+	</general>
+	<formations>
+		<diplome>
+			<nom>Engineering Degree</nom>
+			<lieu_obtention>University Paris 13, School Sup’Galilée</lieu_obtention>
+			<annee>2014 - 2017</annee>
+			<description>It's currently my third year of my engineering degree performed in sandwich training. I'm engaged with Foncia Group for 3 years as an apprentice in our IT System Department.</description>
+		</diplome>
+		<diplome>
+			<nom>Higher Diploma</nom>
+			<lieu_obtention>University Paris 13, IUT of Villetaneuse</lieu_obtention>
+			<annee>2012 - 2014</annee>
+			<description>Higher National Diploma realized in sandwich training in the IT System Department of Foncia Group.</description>
+		</diplome>
+	</formations>
+	<realisations>
+		<projet>
+			<nom>ColorLine</nom>
+			<lieu>Personnal project</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2016 - 2017</annee>
+			</date>
+			<description>Puzzle game for Android realized with Unity</description>
+			<url_sources>https://play.google.com/store/apps/details?id=com.gle.colorline</url_sources>
+		</projet>
+		<projet>
+			<nom>GlecunTech</nom>
+			<lieu>Personnal project</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2016</annee>
+			</date>
+			<description>Web site realized "from scratch" which a list of all the technologies that I currently use.</description>
+			<url_sources>http://gregoire.lecun.free.fr/glecuntech/</url_sources>
+		</projet>
+		<projet>
+			<nom>Website of Gîte/Bed and Breakfast</nom>
+			<lieu>Project for a client</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2014 - Today</annee>
+			</date>
+			<description>Realization and maintenance of a showcase site realized with Wordpress for a domain with gites and bed and breakfasts</description>
+			<url_sources>http://www.lecocondecurson.fr/</url_sources>
+		</projet>
+		<projet>
+			<nom>Space Invaders Game</nom>
+			<lieu>School Sup’Galilée</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2015</annee>
+			</date>
+			<description>Game realized in Java graphic as part of my training of Computer Science &amp; Networks Engineer degree.</description>
+			<url_sources>http://glecun.fr/#projects</url_sources>
+		</projet>
+		<projet>
+			<nom>Pygame Games</nom>
+			<lieu>Personnal Project</lieu>
+			<date>
+				<jour>01</jour>
+				<mois>March</mois>
+				<annee>2013</annee>
+			</date>
+			<description>Project realized by personal desire in Python object oriented with the graphic library Pygame.</description>
+			<url_sources>http://glecun.fr/#projects</url_sources>
+		</projet>
+	</realisations>
+	<experiences>
+		<experience>
+			<nom_poste>Web Developer Java</nom_poste>
+			<nom_entreprise>Foncia Group</nom_entreprise>
+			<periode>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2014</annee>
+				</date>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2017</annee>
+				</date>
+			</periode>
+			<description>Connection of an ElasticSearch search engine on a web application realized with JSF2 technology in Java and also a evolutionary and corrective operation of Foncia applications mainly in the area of ​​prospecting.</description>
+		</experience>
+		<experience>
+			<nom_poste>System Administrator &amp; Web Developer</nom_poste>
+			<nom_entreprise>Foncia Group</nom_entreprise>
+			<periode>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2012</annee>
+				</date>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2014</annee>
+				</date>
+			</periode>
+			<description>During my first year at Foncia, I was a System Administrator for the implementation of environmental building automation in the cloud. The solution was to provide developers with a recipe environment with multiple services (Apache, Tomcat, FTP, SQL, etc). Then for the second year, I worked for a PHP developer team to develop an application realized with Symfony2 technologies and to operate the evolutionary and corrective maintenance of all Foncia applications.</description>
+		</experience>
+	</experiences>
+	<competences>
+		<groupe>
+			<nom>Web Conception</nom>
+			<competence>
+				<nom>J2E / JSF2</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>PHP</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>Html 5 / CSS 3</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>JQuery / Javascript</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>Symfony2</nom>
+				<percent>40</percent>
+			</competence>
+			<competence>
+				<nom>Wordpress</nom>
+				<percent>60</percent>
+			</competence>
+		</groupe>
+		<groupe>
+			<nom>Data</nom>
+			<competence>
+				<nom>BDD Conception</nom>
+				<percent>60</percent>
+			</competence>
+			<competence>
+				<nom>SQL</nom>
+				<percent>70</percent>
+			</competence>
+			<competence>
+				<nom>ElasticSearch</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>XML/XSD/DTD/XSLT</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>UML</nom>
+				<percent>40</percent>
+			</competence>
+		</groupe>
+		<groupe>
+			<nom>System Administration</nom>
+			<competence>
+				<nom>Bash/UNIX/Shell</nom>
+				<percent>70</percent>
+			</competence>
+			<competence>
+				<nom>Apache</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>Puppet</nom>
+				<percent>40</percent>
+			</competence>
+			<competence>
+				<nom>Amazon AWS</nom>
+				<percent>50</percent>
+			</competence>
+		</groupe>
+		<groupe>
+			<nom>Langages</nom>
+			<competence>
+				<nom>Python</nom>
+				<percent>60</percent>
+			</competence>
+			<competence>
+				<nom>C / C++</nom>
+				<percent>70</percent>
+			</competence>
+			<competence>
+				<nom>C#</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>Ruby</nom>
+				<percent>20</percent>
+			</competence>
+			<competence>
+				<nom>Unity</nom>
+				<percent>60</percent>
+			</competence>
+		</groupe>
+	</competences>
+	<autres>
+		<langues>
+			<langue>
+				<nom>English</nom>
+				<niveau>(TOEIC: 830pts)</niveau>
+			</langue>
+		</langues>
+		<hobbies>
+			<hobbie>
+				<nom>Guitar-Bass/Guitar</nom>
+				<niveau/>			
+			</hobbie>
+			<hobbie>
+				<nom>Running</nom>
+				<niveau/>			
+			</hobbie>
+		</hobbies>
+	</autres>
+</cv>

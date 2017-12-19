@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="cv_greg.xsl" type="text/xsl" ?>
+
+<!DOCTYPE cv SYSTEM "cv_greg.dtd"> 
+<cv xmlns="http://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.w3schools.com cv_greg.xsd">
+	<lang>JA</lang>
+	<general>
+		<nom>Le Cun</nom>
+		<prenom>Grégoire</prenom>
+		<emploi_actuelle>ジュニアWeb開発者</emploi_actuelle>
+		<description>見習い22年は今交互にコンピュータサイエンス＆アンペアで工学の学位の準備の一環としてのJava Web開発者としてFonciaグループで契約します。ネットワーク内の交替</description>
+		<adresse>Eaubonne, 95600</adresse>
+		<telephone/>
+		<url_site>http://glecun.fr</url_site>
+		<email>gregoire.lecun@free.fr</email>
+		<url_photo>http://glecun.fr/img/me2.jpg</url_photo>
+	</general>
+	<formations>
+		<diplome>
+			<nom>工学の学位コンピュータ &amp; ネットワーク</nom>
+			<lieu_obtention>パリ13大学、エコールSup'Galilée</lieu_obtention>
+			<annee>2014 - 2017</annee>
+			<description>コンピュータトレーニング＆アンペアでのエンジニアリングスクールの1年目で、情報システムFonciaの理事で交互に行わラーニングネットワーク</description>
+		</diplome>
+		<diplome>
+			<nom>DUTのInformatique</nom>
+			<lieu_obtention>Villetaneuseの大学パリ13 IUT</lieu_obtention>
+			<annee>2012 - 2014</annee>
+			<description>DUTのInformatiqueはFonciaで情報システムの理事で交互に行います。</description>
+		</diplome>
+	</formations>
+	<realisations>
+		<projet>
+			<nom>ColorLine</nom>
+			<lieu>個人的なプロジェクト</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2016 - 2017</annee>
+			</date>
+			<description>Android用パズルゲームは、Unityと作られました</description>
+			<url_sources>https://play.google.com/store/apps/details?id=com.gle.colorline</url_sources>
+		</projet>
+		<projet>
+			<nom>GlecunTech</nom>
+			<lieu>個人的なプロジェクト</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2016</annee>
+			</date>
+			<description>私が使用するすべての技術が一覧表示されます「ゼロから」設計されたWebサイト。</description>
+			<url_sources>http://gregoire.lecun.free.fr/glecuntech/</url_sources>
+		</projet>
+		<projet>
+			<nom>コテージサイト/ゲストハウス</nom>
+			<lieu>クライアントのためのプロジェクト</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2014 - 今日</annee>
+			</date>
+			<description>ロッジやコテージでドメインのWordpressので作られたショーケースのウェブサイトの構築と保守</description>
+			<url_sources>http://www.lecocondecurson.fr/</url_sources>
+		</projet>
+		<projet>
+			<nom>スペースインベーダーゲーム</nom>
+			<lieu>学校 Sup’Galilée</lieu>
+			<date>
+				<jour></jour>
+				<mois></mois>
+				<annee>2015</annee>
+			</date>
+			<description>ゲームは私のコンピュータ＆＃038エンジニアリングトレーニングの下でJavaグラフィックスで行われました。ネットワーク。</description>
+			<url_sources>http://glecun.fr/#projects</url_sources>
+		</projet>
+		<projet>
+			<nom>pygameのゲーム</nom>
+			<lieu>個人的なプロジェクト</lieu>
+			<date>
+				<jour>01</jour>
+				<mois>3月</mois>
+				<annee>2013</annee>
+			</date>
+			<description>グラフィックライブラリpygameの羨望の担当者で作られたPythonオブジェクト指向のゲーム。</description>		
+			<url_sources>http://glecun.fr/#projects</url_sources>
+		</projet>
+	</realisations>
+	<experiences>
+		<experience>
+			<nom_poste>Java Web開発者向け</nom_poste>
+			<nom_entreprise>FonciaのGroupe</nom_entreprise>
+			<periode>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2014</annee>
+				</date>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2017</annee>
+				</date>
+			</periode>
+			<description>主に探査のフィールド上のJava技術とJSF2プログレッシブ及び是正保守アプリケーションFonciaで開発されたWebアプリケーションにElasticSearch検索エンジンを接続します。</description>
+		</experience>
+		<experience>
+			<nom_poste>システム管理者 &amp; PHPのWeb開発者</nom_poste>
+			<nom_entreprise>FonciaのGroupe</nom_entreprise>
+			<periode>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2012</annee>
+				</date>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2014</annee>
+				</date>
+			</periode>
+			<description>Foncia、クラウドの環境ビルオートメーションの実装のためのシステム管理者の位置の占領で私の最初の年の間に。解決策は、開発者に複数のサービス（のApache、Tomcatの、FTP、SQLなど）を持つレシピ環境を提供することでした。そして二年目、Symfony2の技術で開発されたアプリケーションの開発のためのPHP開発者のチームを統合し、アプリケーションFonciaの進化論と是正保守を運営しています。</description>
+		</experience>
+	</experiences>
+	<competences>
+		<groupe>
+			<nom>ウェブデザイン</nom>
+			<competence>
+				<nom>J2E / JSF2</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>PHP</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>Html 5 / CSS 3</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>JQuery / Javascript</nom>
+				<percent>90</percent>
+			</competence>
+			<competence>
+				<nom>Symfony2</nom>
+				<percent>40</percent>
+			</competence>
+			<competence>
+				<nom>Wordpress</nom>
+				<percent>60</percent>
+			</competence>
+		</groupe>
+		<groupe>
+			<nom>データ</nom>
+			<competence>
+				<nom>データベース設計</nom>
+				<percent>60</percent>
+			</competence>
+			<competence>
+				<nom>SQL</nom>
+				<percent>70</percent>
+			</competence>
+			<competence>
+				<nom>ElasticSearch</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>XML/XSD/DTD/XSLT</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>UML</nom>
+				<percent>40</percent>
+			</competence>
+		</groupe>
+		<groupe>
+			<nom>行政システム</nom>
+			<competence>
+				<nom>Bash/UNIX/Shell</nom>
+				<percent>70</percent>
+			</competence>
+			<competence>
+				<nom>Apache</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>Puppet</nom>
+				<percent>40</percent>
+			</competence>
+			<competence>
+				<nom>Amazon AWS</nom>
+				<percent>50</percent>
+			</competence>
+		</groupe>
+		<groupe>
+			<nom>言語</nom>
+			<competence>
+				<nom>Python</nom>
+				<percent>60</percent>
+			</competence>
+			<competence>
+				<nom>C / C++</nom>
+				<percent>70</percent>
+			</competence>
+			<competence>
+				<nom>C#</nom>
+				<percent>50</percent>
+			</competence>
+			<competence>
+				<nom>Ruby</nom>
+				<percent>20</percent>
+			</competence>
+			<competence>
+				<nom>Unity</nom>
+				<percent>60</percent>
+			</competence>
+		</groupe>
+	</competences>
+	<autres>
+		<langues>
+			<langue>
+				<nom>英語</nom>
+				<niveau>(TOEIC: 830pts)</niveau>
+			</langue>
+		</langues>
+		<hobbies>
+			<hobbie>
+				<nom>ギター・ベース/ギター</nom>
+				<niveau/>			
+			</hobbie>
+			<hobbie>
+				<nom>ランニング</nom>
+				<niveau/>			
+			</hobbie>
+		</hobbies>
+	</autres>
+</cv>

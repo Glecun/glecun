@@ -1,0 +1,44 @@
+<!ELEMENT cv (lang,general,formations,realisations,experiences,competences,autres)>
+<!ELEMENT lang (#PCDATA)>
+
+<!ELEMENT general (nom,prenom,emploi_actuelle,description,adresse,telephone,url_site,email,url_photo)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT emploi_actuelle (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT url_site (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT url_photo (#PCDATA)>
+
+<!ELEMENT formations (diplome+)>
+<!ELEMENT diplome (nom,lieu_obtention,annee,description)>
+<!ELEMENT lieu_obtention (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
+
+<!ELEMENT realisations (projet+)>
+<!ELEMENT projet (nom,lieu,date,description,url_sources)>
+<!ELEMENT lieu (#PCDATA)>
+<!ELEMENT url_sources (#PCDATA)>
+<!ELEMENT date (jour,mois,annee)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT mois (#PCDATA)>
+
+<!ELEMENT experiences (experience+)>
+<!ELEMENT experience (nom_poste,nom_entreprise,periode,description)>
+<!ELEMENT nom_poste (#PCDATA)>
+<!ELEMENT nom_entreprise (#PCDATA)>
+<!ELEMENT periode (date,date)>
+
+<!ELEMENT competences (groupe+)>
+<!ELEMENT groupe (nom,competence+)>
+<!ELEMENT competence (nom,percent)>
+<!ELEMENT percent (#PCDATA)>
+
+<!ELEMENT autres (langues,hobbies)>
+<!ELEMENT langues (langue+)>
+<!ELEMENT langue (nom,niveau)>
+<!ELEMENT hobbies (hobbie+)>
+<!ELEMENT hobbie (nom,niveau)>
+<!ELEMENT niveau (#PCDATA)>
