@@ -80,7 +80,7 @@ div.clear{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
-	width: 55%;
+	width: 75%;
 	margin-bottom: 20px;
 }
 
@@ -96,7 +96,7 @@ div.clear{
 .header .div_description_infos span{
 	float: right;
 	margin-top: 9px;
-	width: 85%;
+	width: 90%;
 }
 
 .header .div_img {

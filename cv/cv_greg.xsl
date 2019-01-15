@@ -29,9 +29,9 @@ xmlns:xsi="http://www.w3schools.com">
 				<div class="bubble-lang">
 					<xsl:choose>
 						<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
-							<a href="cv_greg_en.xml"><span class="bounceIn ">EN</span></a>
+							<!--<a href="cv_greg_en.xml"><span class="bounceIn ">EN</span></a>-->
 							<a href="#"><span class="bounceIn active">FR</span></a>
-							<a href="cv_greg_ja.xml"><span class="bounceIn">JA</span></a>
+							<!--<a href="cv_greg_ja.xml"><span class="bounceIn">JA</span></a>-->
 						</xsl:when>
 						<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 							<a href="#"><span class="bounceIn active">EN</span></a>
@@ -67,7 +67,7 @@ xmlns:xsi="http://www.w3schools.com">
 						</h2>
 
 						<div class="div_description_infos">
-							<p style="display: inline-block;"><i class="fa fa-quote-left" ></i><span><xsl:value-of select="xsi:cv/xsi:general/xsi:description"/></span></p>
+							<p style="display: inline-block;"><i class="fa fa-quote-left" ></i><span><xsl:value-of disable-output-escaping="yes" select="xsi:cv/xsi:general/xsi:description"/></span></p>
 							<p property="foaf:based_near"><i class="fa fa-map-marker"  style="margin-left: 6px;"></i><span><xsl:value-of select="xsi:cv/xsi:general/xsi:adresse"/></span></p>
 							<!--<p property="foaf:phone"><i class="fa fa-mobile"  style="margin-left: 7px;font-size: 34px;"></i><span class="cadre"/></p>-->
 							<xsl:variable name= "url_site" select="xsi:cv/xsi:general/xsi:url_site/text()"/>
@@ -113,7 +113,7 @@ xmlns:xsi="http://www.w3schools.com">
 									</p>
 								</div>
 								<div class="right">
-									<p class="description"><xsl:value-of select="xsi:description"/></p>
+									<p class="description"><xsl:value-of disable-output-escaping="yes" select="xsi:description"/></p>
 								</div>
 								<div class="clear"/>
 							</div>

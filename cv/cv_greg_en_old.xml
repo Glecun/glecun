@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet href="cv_greg.xsl" type="text/xsl" ?>
 
-<!DOCTYPE cv SYSTEM "cv_greg.dtd"> 
+<!DOCTYPE cv SYSTEM "cv_greg.dtd">
 <cv xmlns="http://www.w3schools.com"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.w3schools.com cv_greg.xsd">
@@ -228,11 +228,11 @@
 		<hobbies>
 			<hobbie>
 				<nom>Guitar-Bass/Guitar</nom>
-				<niveau/>			
+				<niveau/>
 			</hobbie>
 			<hobbie>
 				<nom>Running</nom>
-				<niveau/>			
+				<niveau/>
 			</hobbie>
 		</hobbies>
 	</autres>
