@@ -49,7 +49,7 @@
 				<div class="welcome-message">
 				   <div class="heading">
 					  <p>GRÉGOIRE LE CUN</p>
-					  <p class="small">Dévelopeur Web Junior <i class="fa fa-at"></i> Foncia Groupe</p>
+					  <p class="small">Dévelopeur Web Full-Stack <i class="fa fa-at"></i> VIDAL</p>
 				   </div>
 				   <a href="#aboutMe" class="borderBtnBlue">VOIR PLUS</a>
 				</div>
@@ -82,7 +82,11 @@
 								<img alt=""  id="me" src="img/me.jpg" class="img-circle">
 							</div>
 							<div id="verticalLigne1" style="left:auto;margin: 0px auto;display: block;position:static;" class="verticalBlueLigne"></div>
-							<p id="aboutMeinfo" class="cadreBlue">Apprenti de 22 ans actuellement en contrat d'alternance chez Foncia Groupe en tant que développeur web Java dans le cadre de la préparation d'un Diplôme d'ingénieur en Informatique & Réseaux en Alternance.
+							<p id="aboutMeinfo" class="cadreBlue">
+                        Passionné depuis plus de 7 ans, je parcours sans cesse les différents horizons que m’offre l’informatique tels que le mobile, les jeux vidéo ou encore le web.
+                        Lorsqu’une idée d’application me vient en tête, je n’hésite jamais à la réaliser sur mon temps libre en me confrontant à une nouvelle technologie en vogue.
+                        J’ai dans ma carrière, eu la chance de pouvoir assister à des conférences telles que Devoxx France ou Codeurs En Seine. Je me tiens également à jour en visionnant de moi-même des conférences en ligne ou en participant à des événements les soirs de semaine.<br><br>
+                        Je suis actuellement Développeur Full-Stack orienté Web avec un fort attrait pour les technologies Front-end. Je suis parfaitement capable de travailler en équipe dans un environnement agile et être force de proposition.
 							</p>
 							<div id="verticalLigne2" style="margin: 0px auto;display: block;" class="verticalBlueLigne"></div>
 							<a id="butCv" href="cv/cv_greg.xml" style="display:inline-block;" class="borderBtnWhite">Voir CV</a>
@@ -96,6 +100,18 @@
 				   <h2 class="white">FORMATION & ÉXPERIENCES</h2>
 				   <div class="divTimeline">
 					   <ul class="timeline">
+
+                     <li class="topLir">
+                        <div class="direction-r">
+                           <div class="flag-wrapper">
+                              <div class="flag">
+                                 <span class="spanTitle"><img alt=""  src="img/vidal.jpg" height="30" style="margin-right: 5px;"/>VIDAL</span><br>
+                                 <span class="desc">Développeur Web Full-Stack</span>
+                              </div>
+                              <span class="time-wrapper"><span class="time">septembre 2017 – aujourd’hui</span></span>
+                           </div>
+                        </div>
+                     </li>
 							<li>
 								<div class="direction-l">
 									<div class="flag-wrapper">
@@ -103,11 +119,11 @@
 											<span class="spanTitle"><img alt=""  src="img/galilee.png" height="33" />École d'Ingénieur Sup'Galilée</span><br>
 											<span class="desc">Diplôme d'ingénieur Informatique & Réseaux en apprentissage</span>
 										</div>
-										<span class="time-wrapper"><span class="time">septembre 2014 – aujourd’hui</span></span>
+										<span class="time-wrapper"><span class="time">septembre 2014 – septembre 2017</span></span>
 									</div>
 								</div>
 							</li>
-							<li class="topLir">
+							<li>
 								<div class="direction-r">
 									<div class="flag-wrapper">
 										<div class="flag">
@@ -160,27 +176,21 @@
 				<div class="heading">
 				   <h2 class="blue">COMPÉTENCES</h2>
 					<dl class="skills-diagram">
-					  <dt class="skill-6">UML</dt><dd></dd>
-					  <dt class="skill-7">ElasticSearch</dt><dd></dd>
-					  <dt class="skill-5">Symfony2</dt><dd></dd>
-					  <dt class="skill-8">JSF2</dt><dd></dd>
-					  <dt class="skill-8">UNIX</dt><dd></dd>
-					  <dt class="skill-2">Ruby</dt><dd></dd>
-					  <dt class="skill-7">SQL</dt><dd></dd>
-					  <dt class="skill-10">Java</dt><dd></dd>
-					  <dt class="skill-6">Python</dt><dd></dd>
-					  <dt class="skill-2">Aws</dt><dd></dd>
-					  <dt class="skill-7">XML</dt><dd></dd>
-					  <dt class="skill-6">HTML5</dt><dd></dd>
-					  <dt class="skill-8">JQuery</dt><dd></dd>
-					  <dt class="skill-6">CSS3</dt><dd></dd>
-					  <dt class="skill-2 smallest">Puppet</dt><dd></dd>
-					  <dt class="skill-5">Apache</dt><dd></dd>
-					  <dt class="skill-9">PHP</dt><dd></dd>
-					  <dt class="skill-7">C</dt><dd></dd>
-					  <dt class="skill-7">Wordpress</dt><dd></dd>
-					  <dt class="skill-4">Unity</dt><dd></dd>
-					  <dt class="skill-4">C#</dt><dd></dd>
+                  <dt class="skill-10">Java</dt><dd></dd>
+                  <dt class="skill-4">Symfony2</dt><dd></dd>
+                  <dt class="skill-9">AngularJs</dt><dd></dd>
+                  <dt class="skill-8">HTML/CSS</dt><dd></dd>
+                  <dt class="skill-8">Jasmine</dt><dd></dd>
+                  <dt class="skill-3 small-text">Cucumber</dt><dd></dd>
+                  <dt class="skill-10">Angular</dt><dd></dd>
+                  <dt class="skill-7">SQL</dt><dd></dd>
+                  <dt class="skill-8">Mockito</dt><dd></dd>
+                  <dt class="skill-7">MongoDb</dt><dd></dd>
+                  <dt class="skill-4 small-text">ElasticSearch</dt><dd></dd>
+                  <dt class="skill-6">Wordpress</dt><dd></dd>
+                  <dt class="skill-4">Unity</dt><dd></dd>
+                  <dt class="skill-8">JUnit</dt><dd></dd>
+                  <dt class="skill-7">Git</dt><dd></dd>
 					</dl>
 				</div>
 			</div>
