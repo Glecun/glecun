@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-xmlns:fo="http://www.w3.org/1999/XSL/Format" 
-xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-xmlns:fn="http://www.w3.org/2005/xpath-functions" 
-xmlns:xsi="http://www.w3schools.com">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3schools.com">
 
 	<xsl:output method="xml" indent="yes" encoding="UTF-8" doctype-public="-//W3C//DTD XHTML+RDFa 1.0//EN" doctype-system="http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"/>
 
 	<xsl:template match="/">
 		
-		<html version="XHTML+RDFa 1.0" xmlns="http://www.w3.org/1999/xhtml"
-				  xmlns:dc="http://purl.org/dc/elements/1.1/"
-				  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				  xmlns:aiiso="http://purl.org/vocab/aiiso/schema#"
-				  xml:lang="fr">
+		<html version="XHTML+RDFa 1.0" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
 			<head>
 				<meta http-equiv="Content-Type" property="dc:format" content="text/html; charset=utf-8" />
 				<meta name="dc:language" content="fr" />
 				<title property="dc:title" >CV</title>
-				<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+				<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+						integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"/>
 				<link rel="stylesheet" href="https://use.fontawesome.com/5678816d2c.css"/>
 				<link rel="stylesheet" type="text/css" href="cv_greg.css" />
 			</head>
@@ -29,19 +20,12 @@ xmlns:xsi="http://www.w3schools.com">
 				<div class="bubble-lang">
 					<xsl:choose>
 						<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
-							<!--<a href="cv_greg_en.xml"><span class="bounceIn ">EN</span></a>-->
+							<!--<a href="cv_greg_en.xml"><span class="bounceIn">EN</span></a>-->
 							<a href="#"><span class="bounceIn active">FR</span></a>
-							<!--<a href="cv_greg_ja.xml"><span class="bounceIn">JA</span></a>-->
 						</xsl:when>
 						<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 							<a href="#"><span class="bounceIn active">EN</span></a>
 							<a href="cv_greg.xml"><span class="bounceIn">FR</span></a>
-							<a href="cv_greg_ja.xml"><span class="bounceIn">JA</span></a>
-						</xsl:when>
-						<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-							<a href="cv_greg_en.xml"><span class="bounceIn">EN</span></a>
-							<a href="cv_greg.xml"><span class="bounceIn">FR</span></a>
-							<a href="#"><span class="bounceIn active">JA</span></a>
 						</xsl:when>
 					</xsl:choose>
 				</div>
@@ -69,7 +53,6 @@ xmlns:xsi="http://www.w3schools.com">
 						<div class="div_description_infos">
 							<p style="display: inline-block;"><i class="fa fa-quote-left" ></i><span><xsl:value-of disable-output-escaping="yes" select="xsi:cv/xsi:general/xsi:description"/></span></p>
 							<p property="foaf:based_near"><i class="fa fa-map-marker"  style="margin-left: 6px;"></i><span><xsl:value-of select="xsi:cv/xsi:general/xsi:adresse"/></span></p>
-							<!--<p property="foaf:phone"><i class="fa fa-mobile"  style="margin-left: 7px;font-size: 34px;"></i><span class="cadre"/></p>-->
 							<xsl:variable name= "url_site" select="xsi:cv/xsi:general/xsi:url_site/text()"/>
 							<p><i class="fa fa-globe"  style="margin-left: 2px;"></i><span><a class="a_url_site" rel="foaf:homepage" href="{$url_site}"><xsl:value-of select="xsi:cv/xsi:general/xsi:url_site"/></a></span></p>
 							<xsl:variable name= "email" select="xsi:cv/xsi:general/xsi:email/text()"/>
@@ -78,7 +61,6 @@ xmlns:xsi="http://www.w3schools.com">
 					</div>
 				
 					<div class="div_img" typeof="foaf:Image" rev="foaf:depiction">
-						
 						<xsl:variable name= "url_photo" select="xsi:cv/xsi:general/xsi:url_photo/text()"/>
 						<img class="img" property="foaf:img" alt="" src="{$url_photo}" />
 					</div>
@@ -96,9 +78,6 @@ xmlns:xsi="http://www.w3schools.com">
 									</xsl:when>
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 										Employement History
-									</xsl:when>
-									<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-										 経験
 									</xsl:when>
 								</xsl:choose>
 							</h1>
@@ -129,9 +108,6 @@ xmlns:xsi="http://www.w3schools.com">
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 										Achievement
 									</xsl:when>
-									<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-										 実績
-									</xsl:when>
 								</xsl:choose>
 							</h1>
 						</div>
@@ -157,9 +133,6 @@ xmlns:xsi="http://www.w3schools.com">
 													<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 														Source files:
 													</xsl:when>
-													<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-														 ソースファイル
-													</xsl:when>
 												</xsl:choose>
 											</span>
 											<xsl:text> </xsl:text><a href="{$url_source}"><xsl:value-of select="xsi:url_sources"/></a>
@@ -178,9 +151,6 @@ xmlns:xsi="http://www.w3schools.com">
 										</xsl:when>
 										<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 											Education
-										</xsl:when>
-										<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-											 地層
 										</xsl:when>
 									</xsl:choose>
 							</h1>
@@ -213,9 +183,6 @@ xmlns:xsi="http://www.w3schools.com">
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 										Skills
 									</xsl:when>
-									<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-										 スキル
-									</xsl:when>
 								</xsl:choose>
 							</h1>
 						</div>
@@ -244,9 +211,6 @@ xmlns:xsi="http://www.w3schools.com">
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 										Others
 									</xsl:when>
-									<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-										他の 
-									</xsl:when>
 								</xsl:choose>
 							</h1>
 						</div>
@@ -259,9 +223,6 @@ xmlns:xsi="http://www.w3schools.com">
 										</xsl:when>
 										<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 											Languages:
-										</xsl:when>
-										<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-											 言語
 										</xsl:when>
 									</xsl:choose>
 								</span>
@@ -281,9 +242,6 @@ xmlns:xsi="http://www.w3schools.com">
 										</xsl:when>
 										<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 											Hobbies:
-										</xsl:when>
-										<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-											 趣味
 										</xsl:when>
 									</xsl:choose>
 								</span>
