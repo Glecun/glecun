@@ -232,16 +232,20 @@
 		</langues>
 		<hobbies>
 			<hobbie>
+				<nom>Jeux vidéo</nom>
+				<niveau/>
+			</hobbie>
+			<hobbie>
+				<nom>Jeux de société</nom>
+				<niveau/>
+			</hobbie>
+			<hobbie>
 				<nom>Guitare-Basse/Guitare</nom>
 				<niveau/>			
 			</hobbie>
 			<hobbie>
 				<nom>Salle de sport</nom>
 				<niveau/>			
-			</hobbie>
-			<hobbie>
-				<nom>Running</nom>
-				<niveau/>
 			</hobbie>
 		</hobbies>
 	</autres>
