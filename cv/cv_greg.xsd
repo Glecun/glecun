@@ -63,7 +63,7 @@ elementFormDefault="qualified">
 			<xs:element name="lieu" type="xs:string"/>
 			<xs:element name="date" type="DateType"/>
 			<xs:element name="description" type="xs:string"/>
-			<xs:element name="url_sources" type="xs:anyURI"/>
+			<xs:element name="url_sources" type="xs:anyURI" minOccurs="0"/>
 		</xs:sequence>
 	</xs:complexType>
 

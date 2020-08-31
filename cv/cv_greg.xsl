@@ -146,23 +146,25 @@ xmlns:xsi="http://www.w3schools.com">
 								</div>
 								<div class="right">
 									<p class="description"><xsl:value-of select="xsi:description"/></p>
-									<xsl:variable name= "url_source" select="xsi:url_sources/text()"/>
-									<p class="sources">
-										<span>							
-											<xsl:choose>
-												<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
-													Fichiers sources:
-												</xsl:when>
-												<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
-													Source files:
-												</xsl:when>
-												<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
-													 ソースファイル
-												</xsl:when>
-											</xsl:choose>
-										</span>
-										<xsl:text> </xsl:text><a href="{$url_source}"><xsl:value-of select="xsi:url_sources"/></a>
-									</p>
+									<xsl:if test="xsi:url_sources">
+										<xsl:variable name= "url_source" select="xsi:url_sources/text()"/>
+										<p class="sources">
+											<span>
+												<xsl:choose>
+													<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
+														Fichiers sources:
+													</xsl:when>
+													<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
+														Source files:
+													</xsl:when>
+													<xsl:when test="/xsi:cv/xsi:lang/text() = 'JA'">
+														 ソースファイル
+													</xsl:when>
+												</xsl:choose>
+											</span>
+											<xsl:text> </xsl:text><a href="{$url_source}"><xsl:value-of select="xsi:url_sources"/></a>
+										</p>
+									</xsl:if>
 								</div>
 								<div class="clear"/>
 							</div>

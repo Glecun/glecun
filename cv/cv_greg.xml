@@ -68,10 +68,9 @@
 			<date>
 				<jour></jour>
 				<mois></mois>
-				<annee>2014 - Aujourd'hui</annee>
+				<annee>2014 - 2020</annee>
 			</date>
 			<description>Réalisation et maintenance d'un site vitrine réalisé avec Wordpress pour un domaine possédant des gîtes et des chambres d'hôtes</description>
-			<url_sources>http://www.lecocondecurson.fr/</url_sources>
 		</projet>
 		<projet>
 			<nom>Jeu Space Invaders</nom>
