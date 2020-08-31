@@ -567,6 +567,10 @@ dt.small-text{
 	background: url('img/lecocondecurson.png') right no-repeat #000;
 	background-size: 100%;
 }
+.mdl-card__title.gameMaker {
+	background: url('img/gameMaker.png') right no-repeat #000;
+	background-size: 100%;
+}
 
 .whiteText{
 	color:#fff;

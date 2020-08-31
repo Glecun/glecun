@@ -100,10 +100,16 @@ $( document ).ready(function() {
 					}	
 				);
 				$(".glecuntech").parent().mouseover(function() {
-						$(this).children('.glecuntech').css("background-image", 	"url('img/glecuntech.gif')");
+						$(this).children('.glecuntech').css("background-image", "url('img/glecuntech.gif')");
 					}).mouseleave(function(){
 						$(this).children('.glecuntech').css("background-image", "url('img/glecuntech.png')");
 					}	
+				);
+				$(".gameMaker").parent().mouseover(function() {
+					$(this).children('.gameMaker').css("background-image", "url('img/gameMaker.gif')");
+				}).mouseleave(function(){
+						$(this).children('.gameMaker').css("background-image", "url('img/gameMaker.png')");
+					}
 				);
 				
 			}
