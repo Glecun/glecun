@@ -72,7 +72,7 @@ div.clear{
 }
 
 .header .a_url_site{
-	color: #006FFF;
+	color: #0773ff;
 	text-decoration: none;
 }
 
@@ -97,6 +97,8 @@ div.clear{
 	float: right;
 	margin-top: 9px;
 	width: 90%;
+	color: white;
+	font-weight: bold;
 }
 
 .header .div_img {
@@ -387,9 +389,7 @@ div.clear{
 
 /* Print */
 @media print {
-	.rounded-button {
-		display: none ;
-	}
+
 	.header {
 		background-color: rgb(255, 255, 255);
 		border-bottom: solid 2px #4cc6ff;
@@ -399,9 +399,11 @@ div.clear{
 	.header .div_description_infos i {
 		color: #4cc6ff;
 	}
-	.bubble-lang {
-		display: none;
+	.header .div_description_infos span.info{
+		color: inherit;
+		font-weight: bold;
 	}
+
 	.header .img {
 		margin-top: 154px;
 		border: 6px solid #4cc6ff;
@@ -413,6 +415,14 @@ div.clear{
 
 	.header .div_grey {
 		background-color: transparent;
+	}
+
+	.rounded-button {
+		display: none ;
+	}
+
+	.bubble-lang {
+		display: none;
 	}
 
 	.content .title_h1.competence-title{
