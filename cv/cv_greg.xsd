@@ -11,7 +11,7 @@ elementFormDefault="qualified">
 				<xs:element name="lang" type="xs:string" />
 				<xs:element name="general" type="GeneralType" />
 				<xs:element name="formations" type="DiplomeList" />
-				<xs:element name="realisations" type="ProjetList" />
+				<xs:element name="evenements" type="EvenementList" />
 				<xs:element name="experiences" type="ExperienceList" />
 				<xs:element name="competences" type="GroupeList"/>
 				<xs:element name="autres" type="AutresType"/>
@@ -50,20 +50,20 @@ elementFormDefault="qualified">
 		</xs:sequence>
 	</xs:complexType>
 	
-	<!-- Realisations -->
-	<xs:complexType name="ProjetList">
+	<!-- Evenement -->
+	<xs:complexType name="EvenementList">
       <xs:sequence>
-        <xs:element name="projet" maxOccurs="unbounded" minOccurs="0" type="ProjetType"/>
+        <xs:element name="evenement" maxOccurs="unbounded" minOccurs="0" type="EvenementType"/>
       </xs:sequence>
     </xs:complexType>
 
-	<xs:complexType name="ProjetType" >
+	<xs:complexType name="EvenementType" >
 		<xs:sequence>
 			<xs:element name="nom" type="xs:string"/>
 			<xs:element name="lieu" type="xs:string"/>
 			<xs:element name="date" type="DateType"/>
 			<xs:element name="description" type="xs:string"/>
-			<xs:element name="url_sources" type="xs:anyURI" minOccurs="0"/>
+			<xs:element name="url_event" type="xs:anyURI" minOccurs="0"/>
 		</xs:sequence>
 	</xs:complexType>
 

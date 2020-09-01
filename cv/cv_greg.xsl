@@ -119,15 +119,15 @@
 							<h1 class="title_h1" about="http://glecun.fr/#aboutMe"><i class="fa fa-wrench" ></i>
 								<xsl:choose>
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
-										Réalisations
+										Conférences / Formations
 									</xsl:when>
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
-										Achievement
+										Events
 									</xsl:when>
 								</xsl:choose>
 							</h1>
 						</div>
-						<xsl:for-each select="xsi:cv/xsi:realisations/xsi:projet">
+						<xsl:for-each select="xsi:cv/xsi:evenements/xsi:evenement">
 							<div class="content_double">
 								<div class="left">
 									<h3 class="title_content_double"><xsl:value-of select="xsi:nom"/></h3>
@@ -138,20 +138,20 @@
 								</div>
 								<div class="right">
 									<p class="description"><xsl:value-of select="xsi:description"/></p>
-									<xsl:if test="xsi:url_sources">
-										<xsl:variable name= "url_source" select="xsi:url_sources/text()"/>
+									<xsl:if test="xsi:url_event">
+										<xsl:variable name= "url_event" select="xsi:url_event/text()"/>
 										<p class="sources">
 											<span>
 												<xsl:choose>
 													<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
-														Fichiers sources:
+														Lien:
 													</xsl:when>
 													<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
-														Source files:
+														Link:
 													</xsl:when>
 												</xsl:choose>
 											</span>
-											<xsl:text> </xsl:text><a href="{$url_source}"><xsl:value-of select="xsi:url_sources"/></a>
+											<xsl:text> </xsl:text><a href="{$url_event}"><xsl:value-of select="xsi:url_event"/></a>
 										</p>
 									</xsl:if>
 								</div>

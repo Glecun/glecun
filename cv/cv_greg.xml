@@ -39,62 +39,30 @@
 			<description>DUT Informatique réalisé en alternance à la Direction des Systèmes Informatiques à Foncia.</description>
 		</diplome>
 	</formations>
-	<realisations>
-		<projet>
-			<nom>ColorLine</nom>
-			<lieu>Projet personnel</lieu>
+	<evenements>
+		<evenement>
+			<nom>Devoxx</nom>
+			<lieu>Paris</lieu>
+			<date>
+				<jour></jour>
+				<mois>04 /</mois>
+				<annee>2019</annee>
+			</date>
+			<description>Visiteur de la conférence de Devoxx à Paris. Participation à un hands-on-labs sur Vue.js</description>
+			<url_event>https://www.devoxx.fr/</url_event>
+		</evenement>
+		<evenement>
+			<nom>Codeurs En Seine</nom>
+			<lieu>Rouen</lieu>
 			<date>
 				<jour></jour>
 				<mois></mois>
-				<annee>2016 - 2017</annee>
+				<annee>2017, 2018 et 2019</annee>
 			</date>
-			<description>Jeu de reflexion pour Android réalisé avec Unity</description>
-			<url_sources>https://play.google.com/store/apps/details?id=com.gle.colorline</url_sources>
-		</projet>
-		<projet>
-			<nom>GlecunTech</nom>
-			<lieu>Projet personnel</lieu>
-			<date>
-				<jour></jour>
-				<mois></mois>
-				<annee>2016</annee>
-			</date>
-			<description>Site web réalisé "from scratch" qui liste l'ensemble des technologies que j'utilise.</description>
-			<url_sources>http://gregoire.lecun.free.fr/glecuntech/</url_sources>
-		</projet>
-		<projet>
-			<nom>Site de Gîte/Chambres d'hôtes</nom>
-			<lieu>Projet pour un client</lieu>
-			<date>
-				<jour></jour>
-				<mois></mois>
-				<annee>2014 - 2020</annee>
-			</date>
-			<description>Réalisation et maintenance d'un site vitrine réalisé avec Wordpress pour un domaine possédant des gîtes et des chambres d'hôtes</description>
-		</projet>
-		<projet>
-			<nom>Jeu Space Invaders</nom>
-			<lieu>Ecole Sup’Galilée</lieu>
-			<date>
-				<jour></jour>
-				<mois></mois>
-				<annee>2015</annee>
-			</date>
-			<description>Jeu réalisé en Java graphique dans le cadre de ma formation d'ingénieur Informatique &amp; Réseaux.</description>
-			<url_sources>http://glecun.fr/#projects</url_sources>
-		</projet>
-		<projet>
-			<nom>Jeux Pygame</nom>
-			<lieu>Projet personnel</lieu>
-			<date>
-				<jour>01</jour>
-				<mois>Mars</mois>
-				<annee>2013</annee>
-			</date>
-			<description>Jeux réalisés en Python orienté objet avec la librairie graphique Pygame par envie personnel.</description>		
-			<url_sources>http://glecun.fr/#projects</url_sources>
-		</projet>
-	</realisations>
+			<description>Visiteur de la conférence de codeurs à Rouen pendant trois années consécutives</description>
+			<url_event>https://www.codeursenseine.com/</url_event>
+		</evenement>
+	</evenements>
 	<experiences>
 		<experience>
 			<nom_poste>Développeur Web Full-Stack</nom_poste>
@@ -115,7 +83,7 @@
 				Développement d'applications Web Java / Angular à destination des scientifiques, des laboratoires et des éditeurs de VIDAL. J'ai agis au sein d'une DSI très sensible à l'agilité avec une réelle intention de toujours s'améliorer.
 				Mon travail a été : analyse technique et conception, estimations des solutions, développements et tests (TDD / Pair Programming)
 				<![CDATA[<br/><br/>]]>
-				Environnement technique : Java 8 - 10, Angular 7, AngularJs, Jasmine, Hibernate, Spring, JUnit / Mockito / Cucumber, MongoDB, Maven, Git, Sonar
+				Environnement technique : Java 8 - 10, Angular 9, AngularJs, Jasmine, Hibernate, Spring, JUnit / Mockito / Cucumber, MongoDB, Maven, Git, Sonar
 			</description>
 		</experience>
 		<experience>
@@ -207,7 +175,7 @@
 		<groupe>
 			<nom>Jeux Vidéo</nom>
 			<competence><nom>Unity</nom></competence>
-			<competence><nom>Game Maker studio 2</nom></competence>
+			<competence><nom>Game Maker Studio 2</nom></competence>
 		</groupe>
 	</competences>
 	<autres>
