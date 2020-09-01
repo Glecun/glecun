@@ -155,30 +155,59 @@
 	</experiences>
 	<competences>
 		<groupe>
-			<nom>Conception Web</nom>
+			<nom>Languages / Framework</nom>
 			<competence><nom>Java</nom><bold>true</bold></competence>
 			<competence><nom>Angular</nom><bold>true</bold></competence>
+			<competence><nom>Html / CSS</nom></competence>
 			<competence><nom>AngularJs</nom></competence>
-			<competence><nom>Html 5 / CSS 3</nom></competence>
+			<competence><nom>React</nom></competence>
 		</groupe>
 		<groupe>
 			<nom>Tests</nom>
+			<competence><nom>JUnit</nom><bold>true</bold></competence>
+			<competence><nom>AssertJ</nom><bold>true</bold></competence>
+			<competence><nom>Mockito</nom><bold>true</bold></competence>
 			<competence><nom>Jasmine</nom></competence>
-			<competence><nom>JUnit</nom></competence>
-			<competence><nom>Mockito</nom></competence>
+			<competence><nom>Jest</nom><bold>true</bold></competence>
 			<competence><nom>Cucumber</nom></competence>
 		</groupe>
 		<groupe>
-			<nom>Data</nom>
-			<competence><nom>SQL</nom></competence>
-			<competence><nom>MongoDb</nom></competence>
-			<competence><nom>ElasticSearch</nom></competence>
+			<nom>Bases de Données</nom>
+			<competence><nom>MongoDb</nom><bold>true</bold></competence>
+			<competence><nom>PostgreSQL</nom><bold>true</bold></competence>
+			<competence><nom>SQL Server</nom></competence>
 		</groupe>
 		<groupe>
-			<nom>Autres</nom>
-			<competence><nom>Unity</nom></competence>
-			<competence><nom>Symfony2</nom></competence>
+			<nom>Outils</nom>
+			<competence><nom>Intellij</nom><bold>true</bold></competence>
+			<competence><nom>Git</nom><bold>true</bold></competence>
+			<competence><nom>Docker</nom></competence>
+			<competence><nom>Gradle</nom></competence>
+			<competence><nom>Maven</nom></competence>
+			<competence><nom>Jenkins</nom></competence>
+			<competence><nom>Npm</nom></competence>
+			<competence><nom>RabbitMQ</nom></competence>
+		</groupe>
+		<groupe>
+			<nom>Software Craftsmanship</nom>
+			<competence><nom>TDD</nom><bold>true</bold></competence>
+			<competence><nom>Pair Programming</nom><bold>true</bold></competence>
+			<competence><nom>Scrum</nom></competence>
+			<competence><nom>Kanban</nom></competence>
+			<competence><nom>Mob Programming</nom></competence>
+		</groupe>
+		<groupe>
+			<nom>Connaissances non avancées</nom>
+			<competence><nom>Vue.js</nom></competence>
 			<competence><nom>Wordpress</nom></competence>
+			<competence><nom>VertX</nom></competence>
+			<competence><nom>ElasticSearch</nom></competence>
+			<competence><nom>Symfony2</nom></competence>
+		</groupe>
+		<groupe>
+			<nom>Jeux Vidéo</nom>
+			<competence><nom>Unity</nom></competence>
+			<competence><nom>Game Maker studio 2</nom></competence>
 		</groupe>
 	</competences>
 	<autres>
