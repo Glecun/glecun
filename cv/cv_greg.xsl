@@ -53,12 +53,26 @@
 						</h2>
 
 						<div class="div_description_infos">
-							<p style="display: inline-block;"><i class="fa fa-quote-left" ></i><span><xsl:value-of disable-output-escaping="yes" select="xsi:cv/xsi:general/xsi:description"/></span></p>
-							<p property="foaf:based_near"><i class="fa fa-map-marker-alt"  style="margin-left: 3px;"></i><span><xsl:value-of select="xsi:cv/xsi:general/xsi:adresse"/></span></p>
-							<xsl:variable name= "url_site" select="xsi:cv/xsi:general/xsi:url_site/text()"/>
-							<p><i class="fa fa-globe-americas"></i><span><a class="a_url_site" rel="foaf:homepage" href="{$url_site}"><xsl:value-of select="xsi:cv/xsi:general/xsi:url_site"/></a></span></p>
-							<xsl:variable name= "email" select="xsi:cv/xsi:general/xsi:email/text()"/>
-							<p><i class="fa fa-envelope"></i><span><a class="a_url_site" rel="foaf:mbox" href="mailto:{$email}"><xsl:value-of select="xsi:cv/xsi:general/xsi:email"/></a></span></p>
+							<p style="display: inline-block;">
+								<i class="fa fa-quote-left" ></i>
+								<span class="info"><xsl:value-of disable-output-escaping="yes" select="xsi:cv/xsi:general/xsi:description"/></span>
+							</p>
+							<p property="foaf:based_near">
+								<i class="fa fa-map-marker-alt"  style="margin-left: 3px;"></i>
+								<span class="info"><xsl:value-of select="xsi:cv/xsi:general/xsi:adresse"/></span>
+							</p>
+
+							<p>
+								<i class="fa fa-globe-americas"></i>
+								<xsl:variable name= "url_site" select="xsi:cv/xsi:general/xsi:url_site/text()"/>
+								<span class="info"><a class="a_url_site" rel="foaf:homepage" href="{$url_site}"><xsl:value-of select="xsi:cv/xsi:general/xsi:url_site"/></a></span>
+							</p>
+
+							<p>
+								<i class="fa fa-envelope"></i>
+								<xsl:variable name= "email" select="xsi:cv/xsi:general/xsi:email/text()"/>
+								<span class="info"><a class="a_url_site" rel="foaf:mbox" href="mailto:{$email}"><xsl:value-of select="xsi:cv/xsi:general/xsi:email"/></a></span>
+							</p>
 						</div>
 					</div>
 				
@@ -266,6 +280,10 @@
 					<div class="clear"/>
 				</div>
 				<div style="height:50px;"/>
+				<script>
+					yearOfXp = new Date().getFullYear() - 2012
+					document.getElementById("years-of-experience").innerText = yearOfXp;
+				</script>
 			</body>
 		</html>
 		

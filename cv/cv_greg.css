@@ -93,7 +93,7 @@ div.clear{
 	color:white;
 }
 
-.header .div_description_infos span{
+.header .div_description_infos span.info{
 	float: right;
 	margin-top: 9px;
 	width: 90%;

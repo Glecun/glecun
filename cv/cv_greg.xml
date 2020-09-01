@@ -11,7 +11,7 @@
 		<prenom>Grégoire</prenom>
 		<emploi_actuelle>Développeur Web Full-Stack</emploi_actuelle>
 		<description>
-			Passionné depuis plus de 7 ans, je parcours sans cesse les différents horizons que m’offre l’informatique tels que le mobile, les jeux vidéo ou encore le web.
+			Passionné depuis <![CDATA[<span id="years-of-experience"></span>]]> ans, je parcours sans cesse les différents horizons que m’offre l’informatique tels que le mobile, les jeux vidéo ou encore le web.
 			<![CDATA[<br/><br/>]]>
 			Lorsqu’une idée d’application me vient en tête, je n’hésite jamais à la réaliser sur mon temps libre en me confrontant à une nouvelle technologie en vogue.
 			<![CDATA[<br/><br/>]]>

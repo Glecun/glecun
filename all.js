@@ -19,7 +19,11 @@ $( document ).ready(function() {
 		gutter: 10
 		});
 	}, 50);
-	
+
+	//years of xp
+	var yearOfXp = new Date().getFullYear() - 2012
+	$('#years-of-experience')[0].innerText = yearOfXp;
+
 	//fullPage
 	$('#fullpage').fullpage({
 		anchors:['welcome', 'aboutMe', 'formation','skills','projects','contact'],
@@ -115,4 +119,5 @@ $( document ).ready(function() {
 			}
         }
 	});
+
 });
