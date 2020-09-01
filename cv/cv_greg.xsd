@@ -135,6 +135,7 @@ elementFormDefault="qualified">
 		<xs:sequence>
 			<xs:element name="nom" type="xs:string"/>
 			<xs:element name="niveau" type="xs:string"/>
+			<xs:element name="icon" type="xs:string"/>
 		</xs:sequence>
 	</xs:complexType>
 	

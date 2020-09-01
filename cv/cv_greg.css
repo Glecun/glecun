@@ -252,12 +252,37 @@ div.clear{
 	margin-left: 3%;
 	text-align:left;
 }
-
-.content .content_right .autres_title{
+.content .content_right .autres .autre {
+	margin-top:5%;
 	margin-left: 3%;
+}
+.content .content_right .autres .autre .autre_title{
 	color: rgb(128,128,128);
 	font-weight:bold;
 	font-size: 18px;
+}
+
+.content .content_right .autres .autre .language{
+	margin-top: 3%;
+}
+
+.content .content_right .autres .autre .hobbies{
+	display: flex;
+	flex-direction: column;
+}
+.content .content_right .autres .autre .hobbies .hobbie {
+	display: flex;
+	margin-top: 14px;
+	align-items: center;
+}
+.content .content_right .autres .autre .hobbies .hobbie span{
+	flex:10;
+}
+
+.content .content_right .autres .autre .hobbies .hobbie i{
+	color: #4cc6ff;
+	font-size: 22px;
+	flex:2;
 }
 
 /* PROGRESS BAR */
@@ -313,7 +338,7 @@ div.clear{
 }
 .rounded-button .fa {
 	color : white;
-	font-size:25px;
+	font-size:24px;
 }
 
 /* BUBBLE LANG*/

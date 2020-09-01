@@ -234,18 +234,22 @@
 			<hobbie>
 				<nom>Jeux vidéo</nom>
 				<niveau/>
+				<icon>gamepad</icon>
 			</hobbie>
 			<hobbie>
 				<nom>Jeux de société</nom>
 				<niveau/>
+				<icon>dice</icon>
 			</hobbie>
 			<hobbie>
 				<nom>Guitare-Basse/Guitare</nom>
-				<niveau/>			
+				<niveau/>
+				<icon>music</icon>
 			</hobbie>
 			<hobbie>
 				<nom>Salle de sport</nom>
-				<niveau/>			
+				<niveau/>
+				<icon>dumbbell</icon>
 			</hobbie>
 		</hobbies>
 	</autres>

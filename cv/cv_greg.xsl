@@ -12,7 +12,7 @@
 				<title property="dc:title" >CV</title>
 				<script src="https://code.jquery.com/jquery-3.1.1.min.js"
 						integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"/>
-				<link rel="stylesheet" href="https://use.fontawesome.com/5678816d2c.css"/>
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"/>
 				<link rel="stylesheet" type="text/css" href="cv_greg.css" />
 			</head>
 			
@@ -23,10 +23,12 @@
 							<!--<a href="cv_greg_en.xml"><span class="bounceIn">EN</span></a>-->
 							<a href="#"><span class="bounceIn active">FR</span></a>
 						</xsl:when>
+						<!--
 						<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
 							<a href="#"><span class="bounceIn active">EN</span></a>
 							<a href="cv_greg.xml"><span class="bounceIn">FR</span></a>
 						</xsl:when>
+						-->
 					</xsl:choose>
 				</div>
 				<xsl:choose>
@@ -52,11 +54,11 @@
 
 						<div class="div_description_infos">
 							<p style="display: inline-block;"><i class="fa fa-quote-left" ></i><span><xsl:value-of disable-output-escaping="yes" select="xsi:cv/xsi:general/xsi:description"/></span></p>
-							<p property="foaf:based_near"><i class="fa fa-map-marker"  style="margin-left: 6px;"></i><span><xsl:value-of select="xsi:cv/xsi:general/xsi:adresse"/></span></p>
+							<p property="foaf:based_near"><i class="fa fa-map-marker-alt"  style="margin-left: 3px;"></i><span><xsl:value-of select="xsi:cv/xsi:general/xsi:adresse"/></span></p>
 							<xsl:variable name= "url_site" select="xsi:cv/xsi:general/xsi:url_site/text()"/>
-							<p><i class="fa fa-globe"  style="margin-left: 2px;"></i><span><a class="a_url_site" rel="foaf:homepage" href="{$url_site}"><xsl:value-of select="xsi:cv/xsi:general/xsi:url_site"/></a></span></p>
+							<p><i class="fa fa-globe-americas"></i><span><a class="a_url_site" rel="foaf:homepage" href="{$url_site}"><xsl:value-of select="xsi:cv/xsi:general/xsi:url_site"/></a></span></p>
 							<xsl:variable name= "email" select="xsi:cv/xsi:general/xsi:email/text()"/>
-							<p><i class="fa fa-envelope-o" ></i><span><a class="a_url_site" rel="foaf:mbox" href="mailto:{$email}"><xsl:value-of select="xsi:cv/xsi:general/xsi:email"/></a></span></p>
+							<p><i class="fa fa-envelope"></i><span><a class="a_url_site" rel="foaf:mbox" href="mailto:{$email}"><xsl:value-of select="xsi:cv/xsi:general/xsi:email"/></a></span></p>
 						</div>
 					</div>
 				
@@ -215,8 +217,8 @@
 							</h1>
 						</div>
 						<div class="autres">
-							<div style="margin-top:10px;">
-								<span class="autres_title">
+							<div class="autre">
+								<span class="autre_title">
 									<xsl:choose>
 										<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
 											Langues:
@@ -226,34 +228,37 @@
 										</xsl:when>
 									</xsl:choose>
 								</span>
-								<xsl:for-each select="xsi:cv/xsi:autres/xsi:langues/xsi:langue">
-									<span><xsl:value-of select="xsi:nom"/></span>
-									<xsl:choose>
-										<xsl:when test="xsi:niveau !=''"><span><xsl:text> </xsl:text><xsl:value-of select="xsi:niveau"/></span></xsl:when>
-									</xsl:choose>
-								</xsl:for-each>
+								<div>
+									<xsl:for-each select="xsi:cv/xsi:autres/xsi:langues/xsi:langue">
+										<div class="language">
+											<span>
+												<xsl:value-of select="xsi:nom"/>
+											</span>
+											<xsl:choose>
+												<xsl:when test="xsi:niveau !=''">
+													<span>
+														<xsl:text> </xsl:text><xsl:value-of select="xsi:niveau"/>
+													</span>
+												</xsl:when>
+											</xsl:choose>
+										</div>
+									</xsl:for-each>
+								</div>
 							</div>
 							
-							<div style="margin-top:10px;" property="foaf:interest">
-								<span class="autres_title">
-									<xsl:choose>
-										<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
-											Hobbies:
-										</xsl:when>
-										<xsl:when test="/xsi:cv/xsi:lang/text() = 'EN'">
-											Hobbies:
-										</xsl:when>
-									</xsl:choose>
+							<div class="autre" property="foaf:interest">
+								<span class="autre_title">
+									Hobbies:
 								</span>
-								<xsl:for-each select="xsi:cv/xsi:autres/xsi:hobbies/xsi:hobbie">
-								<span><xsl:value-of select="xsi:nom"/></span>
-								<xsl:choose>
-									<xsl:when test="xsi:niveau !=''"><span><xsl:text> </xsl:text><xsl:value-of select="xsi:niveau"/></span></xsl:when>
-								</xsl:choose>
-								<xsl:choose>
-									<xsl:when test="position() != last()"><span>, </span></xsl:when>
-								</xsl:choose>
-								</xsl:for-each>
+								<div class="hobbies">
+									<xsl:for-each select="xsi:cv/xsi:autres/xsi:hobbies/xsi:hobbie">
+										<div class="hobbie">
+											<xsl:variable name="icon-name" select="xsi:icon/text()"/>
+											<i class="fa fa-{$icon-name}"/><span>
+											<xsl:value-of select="xsi:nom"/></span>
+										</div>
+									</xsl:for-each>
+								</div>
 							</div>
 						</div>
 						<div class="clear"/>
