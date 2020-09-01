@@ -156,71 +156,29 @@
 	<competences>
 		<groupe>
 			<nom>Conception Web</nom>
-			<competence>
-				<nom>Java</nom>
-				<percent>90</percent>
-			</competence>
-			<competence>
-				<nom>Angular</nom>
-				<percent>90</percent>
-			</competence>
-			<competence>
-				<nom>AngularJs</nom>
-				<percent>80</percent>
-			</competence>
-			<competence>
-				<nom>Html 5 / CSS 3</nom>
-				<percent>90</percent>
-			</competence>
+			<competence><nom>Java</nom><bold>true</bold></competence>
+			<competence><nom>Angular</nom><bold>true</bold></competence>
+			<competence><nom>AngularJs</nom></competence>
+			<competence><nom>Html 5 / CSS 3</nom></competence>
 		</groupe>
 		<groupe>
 			<nom>Tests</nom>
-			<competence>
-				<nom>Jasmine</nom>
-				<percent>80</percent>
-			</competence>
-			<competence>
-				<nom>JUnit</nom>
-				<percent>80</percent>
-			</competence>
-			<competence>
-				<nom>Mockito</nom>
-				<percent>80</percent>
-			</competence>
-			<competence>
-				<nom>Cucumber</nom>
-				<percent>30</percent>
-			</competence>
+			<competence><nom>Jasmine</nom></competence>
+			<competence><nom>JUnit</nom></competence>
+			<competence><nom>Mockito</nom></competence>
+			<competence><nom>Cucumber</nom></competence>
 		</groupe>
 		<groupe>
 			<nom>Data</nom>
-			<competence>
-				<nom>SQL</nom>
-				<percent>80</percent>
-			</competence>
-			<competence>
-				<nom>MongoDb</nom>
-				<percent>70</percent>
-			</competence>
-			<competence>
-				<nom>ElasticSearch</nom>
-				<percent>50</percent>
-			</competence>
+			<competence><nom>SQL</nom></competence>
+			<competence><nom>MongoDb</nom></competence>
+			<competence><nom>ElasticSearch</nom></competence>
 		</groupe>
 		<groupe>
 			<nom>Autres</nom>
-			<competence>
-				<nom>Unity</nom>
-				<percent>40</percent>
-			</competence>
-			<competence>
-				<nom>Symfony2</nom>
-				<percent>40</percent>
-			</competence>
-			<competence>
-				<nom>Wordpress</nom>
-				<percent>60</percent>
-			</competence>
+			<competence><nom>Unity</nom></competence>
+			<competence><nom>Symfony2</nom></competence>
+			<competence><nom>Wordpress</nom></competence>
 		</groupe>
 	</competences>
 	<autres>

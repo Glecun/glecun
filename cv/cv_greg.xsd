@@ -100,7 +100,7 @@ elementFormDefault="qualified">
 	<xs:complexType name="CompetenceType" >
 		<xs:sequence>
 			<xs:element name="nom" type="xs:string"/>
-			<xs:element name="percent" type="PercentType"/>
+			<xs:element name="bold" minOccurs="0" type="xs:boolean"/>
 		</xs:sequence>
 	</xs:complexType>
 	
@@ -157,13 +157,6 @@ elementFormDefault="qualified">
 			<xs:element name="annee" type="xs:string"/>
 		</xs:sequence>
 	</xs:complexType>
-	
-	<!-- Type Percent -->
-	 <xs:simpleType name="PercentType" >
-		<xs:restriction base="xs:integer">
-		  <xs:maxInclusive value="100"/>
-		</xs:restriction>
-	</xs:simpleType>
 
 	<!-- Type Téléphone -->
 	<xs:simpleType name="TelephoneType">

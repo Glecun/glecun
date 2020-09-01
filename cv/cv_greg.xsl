@@ -207,11 +207,15 @@
 								<h2><xsl:value-of select="xsi:nom"/></h2>
 								<div class="block_competences">
 									<xsl:for-each select="xsi:competence">
-										<h3 class="nom_competence"><xsl:value-of select="xsi:nom"/></h3>
-										<div class="progress">
-											<xsl:variable name= "percent" select="xsi:percent/text()"/>
-											<span class="progress-bar"><span class="progress-in" style="width: {$percent}%"></span></span>
-										</div>
+										<xsl:choose>
+											<xsl:when test="xsi:bold">
+												<span class="nom_competence bold"><xsl:value-of select="xsi:nom"/></span>
+											</xsl:when>
+											<xsl:otherwise>
+												<span class="nom_competence"><xsl:value-of select="xsi:nom"/></span>
+											</xsl:otherwise>
+										</xsl:choose>
+										<xsl:if test="position() != last()">, </xsl:if>
 									</xsl:for-each>
 								</div>
 							</xsl:for-each>

@@ -235,17 +235,25 @@ div.clear{
 	margin-bottom: -5px;
 }
 
-.content .content_right .block_competences{
-	margin-left:3%;
-}
 
 .content .content_right .competences{
 	margin-left: 3%;
 }
 
-.content .content_right .nom_competence{
+.content .content_right .competences .block_competences{
+	margin-left:3%;
+	margin-top: 10px;
+	text-align: left;
+	font-size: 18px;
+	color: rgb(128,128,128);
+}
+
+.content .content_right .competences .block_competences .nom_competence{
 	margin-bottom: 3px;
-	color:rgb(128,128,128);
+}
+
+.content .content_right .competences .block_competences .nom_competence.bold{
+	font-weight: bold;
 }
 
 .content .content_right .autres {
@@ -283,38 +291,6 @@ div.clear{
 	color: #4cc6ff;
 	font-size: 22px;
 	flex:2;
-}
-
-/* PROGRESS BAR */
-.progress {
-	overflow: hidden;
-	width: 70%;
-	margin-top: 7px;
-	margin-bottom: 10px;
- }
- 
-.progress-bar {
-  display: block;
-  overflow: hidden;
-  height: 8px;
-  background: #b8b8b8;
-  border-radius: 4px;
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.2), transparent 60%);
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.2), transparent 60%);
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.2), transparent 60%);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), transparent 60%);
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.6);
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px rgba(255, 255, 255, 0.6);
-}
-
-.progress-in {
-  display: block;
-  min-width: 8px;
-  height: 8px;
-  background: rgb(76, 198, 255);
-  border-radius: 4px;
-  -webkit-box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 /* ROUNDED BUTTON */
