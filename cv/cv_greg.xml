@@ -155,7 +155,7 @@
 	</experiences>
 	<competences>
 		<groupe>
-			<nom>Languages / Framework</nom>
+			<nom>Languages / Frameworks</nom>
 			<competence><nom>Java</nom><bold>true</bold></competence>
 			<competence><nom>Angular</nom><bold>true</bold></competence>
 			<competence><nom>Html / CSS</nom></competence>
