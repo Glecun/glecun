@@ -409,3 +409,37 @@ div.clear{
 }
 
 
+/* Print */
+@media print {
+	.rounded-button {
+		display: none ;
+	}
+	.header {
+		background-color: rgb(255, 255, 255);
+		border-bottom: solid 2px #4cc6ff;
+		box-shadow: none;
+	}
+
+	.header .div_description_infos i {
+		color: #4cc6ff;
+	}
+	.bubble-lang {
+		display: none;
+	}
+	.header .img {
+		margin-top: 154px;
+		border: 6px solid #4cc6ff;
+	}
+
+	.header .name {
+		color: #4cc6ff;
+	}
+
+	.header .div_grey {
+		background-color: transparent;
+	}
+
+	.content .title_h1.competence-title{
+		font-size: 27px;
+	}
+}

@@ -191,7 +191,7 @@
 					
 					<div class="content_right">
 						<div class="title">
-							<h1 class="title_h1" about="http://glecun.fr/#aboutMe"><i class="fa fa-suitcase" ></i>
+							<h1 class="title_h1 competence-title" about="http://glecun.fr/#aboutMe"><i class="fa fa-suitcase" ></i>
 								<xsl:choose>
 									<xsl:when test="/xsi:cv/xsi:lang/text() = 'FR'">
 										Compétences
