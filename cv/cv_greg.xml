@@ -41,6 +41,17 @@
 	</formations>
 	<evenements>
 		<evenement>
+			<nom>Formation React - Orsys</nom>
+			<lieu>Paris - La Défense</lieu>
+			<date>
+				<jour></jour>
+				<mois>09 /</mois>
+				<annee>2019</annee>
+			</date>
+			<description>Formation de 3 jours sur le framework React.</description>
+			<url_event>https://www.orsys.fr/formation-reactjs-maitriser-framework-javascript-facebook.html</url_event>
+		</evenement>
+		<evenement>
 			<nom>Devoxx</nom>
 			<lieu>Paris</lieu>
 			<date>
