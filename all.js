@@ -120,4 +120,21 @@ $( document ).ready(function() {
         }
 	});
 
+	// Go Top
+	$(window).scroll(function() {
+		const top = $(".section[data-anchor='aboutMe']").position().top + 100;
+		if ($(this).scrollTop() > top && $('.go-top').css('display') === 'none') {
+			$('.go-top').css("display", "flex").hide().fadeIn(200);
+		}
+		if ($(this).scrollTop() <= top && $('.go-top').css('display') === 'flex') {
+			$('.go-top').fadeOut(200);
+		}
+	});
+	$('.go-top').click(function(event) {
+		event.preventDefault();
+		const top = $(".section[data-anchor='aboutMe']").position().top;
+		$('html, body').animate({scrollTop: top}, 300);
+
+	})
+
 });
