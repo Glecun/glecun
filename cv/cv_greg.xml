@@ -99,7 +99,7 @@
 		</experience>
 		<experience>
 			<nom_poste>Développeur Web Java</nom_poste>
-			<nom_entreprise>Foncia Groupe</nom_entreprise>
+			<nom_entreprise>Foncia Groupe - en Alternance</nom_entreprise>
 			<periode>
 				<date>
 					<jour></jour>
@@ -115,8 +115,25 @@
 			<description>Branchement d’un moteur de recherche ElasticSearch sur une application web réalisée avec la technologie JSF2 en Java et opération de maintenance évolutive et corrective des applications de Foncia essentiellement sur le domaine de la prospection.</description>
 		</experience>
 		<experience>
-			<nom_poste>Administrateur Système &amp; Développeur Web PHP</nom_poste>
-			<nom_entreprise>Foncia Groupe</nom_entreprise>
+			<nom_poste>Développeur Web PHP</nom_poste>
+			<nom_entreprise>Foncia Groupe - en Alternance</nom_entreprise>
+			<periode>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2013</annee>
+				</date>
+				<date>
+					<jour></jour>
+					<mois/>
+					<annee>2014</annee>
+				</date>
+			</periode>
+			<description>La seconde année à Foncia, intégration de l'équipe de développeur PHP pour le développement d'une application réalisée avec la technologie Symfony2 et opérer de la maintenance évolutive et corrective des applications de Foncia.</description>
+		</experience>
+		<experience>
+			<nom_poste>Administrateur Système</nom_poste>
+			<nom_entreprise>Foncia Groupe - en Alternance</nom_entreprise>
 			<periode>
 				<date>
 					<jour></jour>
@@ -126,10 +143,10 @@
 				<date>
 					<jour></jour>
 					<mois/>
-					<annee>2014</annee>
+					<annee>2013</annee>
 				</date>
 			</periode>
-			<description>Lors de ma première année à Foncia, occupation d’un poste d'Administrateur Système pour la mise en place des automatismes de création d'environnement dans le Cloud. La solution devait fournir aux développeurs un environnement de recette comprenant plusieurs services (Apache, Tomcat, FTP, SQL, etc...). Puis la seconde année, intégration de l'équipe de développeur PHP pour le développement d'une application réalisée avec la technologie Symfony2 et opérer de la maintenance évolutive et corrective des applications de Foncia.</description>
+			<description>Lors de ma première année à Foncia, occupation d’un poste d'Administrateur Système pour la mise en place des automatismes de création d'environnement dans le Cloud. La solution devait fournir aux développeurs un environnement de recette comprenant plusieurs services (Apache, Tomcat, FTP, SQL, etc...).</description>
 		</experience>
 	</experiences>
 	<competences>
