@@ -466,7 +466,7 @@ div.centre {
 
 dt.small-text{
    width: auto !important;
-   padding: 1px 1px;
+   padding: 1px 5px;
 }
 
 @media only screen and (max-width:1580px) {
