@@ -427,7 +427,11 @@ div.clear{
 		display: none;
 	}
 
-	.content .title_h1.competence-title{
+	.content .title_h1.competence-title {
 		font-size: 27px;
+	}
+
+	.content .content_right h2 {
+		font-size: 20px;
 	}
 }
