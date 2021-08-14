@@ -515,11 +515,12 @@ dt.small-text{
 	Réalisations
 */
 .projetsDiv {
-	display: inline-block;
-	text-align: -webkit-left;
-	width: 50%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	margin-top: 3%;
 }
+
 .mdl-card__title.sysDR {
 	background: url('img/SysDR.png') no-repeat #fff;
 	background-size: 140%;
@@ -557,12 +558,28 @@ dt.small-text{
 	background: url('img/gameMaker.png') right no-repeat #000;
 	background-size: 100%;
 }
+.mdl-card__title.sibyllaReward {
+	background: url('img/sibyllaReward.png') right no-repeat #000;
+	background-size: 100%;
+}
+.mdl-card__title.soundboardElectron {
+	background: url('img/soundboardElectron.png') right no-repeat #000;
+	background-size: 100%;
+}
+.mdl-card__title.farmerGame {
+	background: url('img/farmerGame.png') right no-repeat #000;
+	background-size: 100%;
+}
+.filling-empty-space-childs {
+	width:330px;
+	height:0;
+}
 
 .whiteText{
 	color:#fff;
 }
 div.year {
-    float: right;
+	margin-left: auto;
     vertical-align: middle;
     line-height: 36px;
     color: rgba(0,0,0,.54);
@@ -675,8 +692,15 @@ a.social{
 }
 .mdl-card__title {
 	background: url('img/space_invader.png') right no-repeat #fff;
-	height: 150px;
+	min-height: 150px;
+	flex-grow: unset;
 	background-size: contain;
+}
+.mdl-card__supporting-text {
+	flex: 1;
+}
+.mdl-card__actions {
+	display: flex;
 }
 .mdl-card {
 	margin-bottom: 10px;

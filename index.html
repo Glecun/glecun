@@ -12,8 +12,6 @@
 		<script type="text/javascript" src="import/jquery-ui.min.js"></script>
 		<link rel="stylesheet" href="import/jquery-ui.structure.min.css">
 		<link rel="stylesheet" href="import/jquery-ui.min.css">
-		<!-- masonry -->
-		<script type="text/javascript" src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
 		<!-- font-awesome-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		<!-- fullPage.js-->
@@ -213,7 +211,69 @@
 				<div class="divider"></div>
 				<div class="heading">
 				   <h2 class="white">RÉALISATIONS</h2>
-					<div id="masonry" class="projetsDiv">
+					<div class="projetsDiv">
+						<div class="mdl-card mdl-shadow--4dp">
+							<div class="mdl-card__title mdl-card--expand farmerGame">
+								<h2 class="mdl-card__title-text whiteText">StonksFarmer</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Un jeu de gestion de Ferme fait avec Unity et une API en Java Spring Boot
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="https://github.com/Glecun/farmer-game-api" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Voir API
+								</a>
+								<a href="https://play.google.com/store/apps/details?id=com.GleWorks.Farmer&hl=fr&gl=US" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Voir Google Play
+								</a>
+								<div class="year"><span>2021</span></div>
+							</div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+							<div class="mdl-card__title mdl-card--expand soundboardElectron">
+								<h2 class="mdl-card__title-text whiteText">Soundboard Electron</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Une application desktop de soundboard fait avec Electron en React
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="https://github.com/Glecun/soundboard" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Voir Github
+								</a>
+								<div class="year"><span>2021</span></div>
+							</div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+							<div class="mdl-card__title mdl-card--expand sibyllaReward">
+								<h2 class="mdl-card__title-text whiteText">Sibylla Reward</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Un POC fait avec Firebase, Svelte et SvelteFire qui affiche les médailles de chaque membre de la Corporation Star Citizen: Sibylla
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="https://github.com/Glecun/sibylla-reward" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Voir Github
+								</a>
+								<a href="https://sibyla-ddabf.web.app/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Voir Site
+								</a>
+								<div class="year"><span>2020</span></div>
+							</div>
+						</div>
+						<div class="mdl-card mdl-shadow--4dp">
+							<div class="mdl-card__title mdl-card--expand gameMaker">
+								<h2 class="mdl-card__title-text whiteText">Poc Idle Game</h2>
+							</div>
+							<div class="mdl-card__supporting-text">
+								Poc d'un jeu incrémental réalisé avec Unity.
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a href="https://github.com/Glecun/automata" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+									Voir Github
+								</a>
+								<div class="year"><span>2020</span></div>
+							</div>
+						</div>
                         <div class="mdl-card mdl-shadow--4dp">
                             <div class="mdl-card__title mdl-card--expand gameMaker">
                                 <h2 class="mdl-card__title-text whiteText">Poc Idle Game</h2>
@@ -237,7 +297,7 @@
 						  </div>
 						  <div class="mdl-card__actions mdl-card--border">
 						  	<a href="https://play.google.com/store/apps/details?id=com.gle.colorline" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-							  Voir Page
+							  Voir Google Play
 							</a>
 							<div class="year"><span>2016 - 2017</span></div>
 						  </div>
@@ -251,7 +311,7 @@
 						  </div>
 						  <div class="mdl-card__actions mdl-card--border">
 							<a href="http://gregoire.lecun.free.fr/glecuntech/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-							  Voir Page
+							  Voir Site
 							</a>
 							<div class="year"><span>2016</span></div>
 						  </div>
@@ -318,11 +378,15 @@
 						  </div>
 						  <div class="mdl-card__actions mdl-card--border">
 							<a href="perso/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-							  Voir Page
+							  Voir Site
 							</a>
 							<div class="year"><span>2010 - Ajourd'hui</span></div>
 						  </div>
 						</div>
+						<div class="filling-empty-space-childs"></div>
+						<div class="filling-empty-space-childs"></div>
+						<div class="filling-empty-space-childs"></div>
+						<div class="filling-empty-space-childs"></div>
 					</div>
 					<!-- Pour charger les images -->
 					<img alt="" src="img/spaceInvaders.gif" style="display:none;"/>
@@ -331,6 +395,7 @@
 					<img alt="" src="img/vaispace.gif" style="display:none;"/>
 					<img alt="" src="img/glecuntech.gif" style="display:none;"/>
 					<img alt="" src="img/gameMaker.gif" style="display:none;"/>
+					<img alt="" src="img/sibyllaReward.gif" style="display:none;"/>
 				</div>
 			</div>
 			<div class="section">

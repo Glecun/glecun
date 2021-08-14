@@ -8,18 +8,6 @@ $( document ).ready(function() {
   	//loader
 	$('.loader').delay(2000).fadeOut(400);
 
-	//Masonry
-	$('#masonry').masonry({
-	isFitWidth: true,
-	gutter: 10
-	});
-	setTimeout(function () {
-		$('#masonry').masonry({
-		isFitWidth: true,
-		gutter: 10
-		});
-	}, 50);
-
 	//years of xp
 	var yearOfXp = new Date().getFullYear() - 2012
 	$('#years-of-experience')[0].innerText = yearOfXp;
@@ -73,49 +61,16 @@ $( document ).ready(function() {
 				$('#butCv').fadeOut(200);
 			}
 			if(anchorLink == 'projects'){
-				$('#masonry').masonry({
-					isFitWidth: true,
-					gutter: 10
-				});
-				
-				$(".sysDR").parent().mouseover(function() {
-						$(this).children('.sysDR').css("background-image", 	"url('img/sysr.gif')");
-					}).mouseleave(function(){
-						$(this).children('.sysDR').css("background-image", "url('img/SysDR.png')");
-					}	
-				);
-				$(".spaceInvaders").parent().mouseover(function() {
-						$(this).children('.spaceInvaders').css("background-image", 	"url('img/spaceInvaders.gif')");
-					}).mouseleave(function(){
-						$(this).children('.spaceInvaders').css("background-image", "url('img/spaceInvaders.png')");
-					}	
-				);
-				
-				$(".vaispace").parent().mouseover(function() {
-						$(this).children('.vaispace').css("background-image", 	"url('img/vaispace.gif')");
-					}).mouseleave(function(){
-						$(this).children('.vaispace').css("background-image", "url('img/vaispace.png')");
-					}	
-				);
-				$(".stars").parent().mouseover(function() {
-						$(this).children('.stars').css("background-image", 	"url('img/stars.gif')");
-					}).mouseleave(function(){
-						$(this).children('.stars').css("background-image", "url('img/stars.png')");
-					}	
-				);
-				$(".glecuntech").parent().mouseover(function() {
-						$(this).children('.glecuntech').css("background-image", "url('img/glecuntech.gif')");
-					}).mouseleave(function(){
-						$(this).children('.glecuntech').css("background-image", "url('img/glecuntech.png')");
-					}	
-				);
-				$(".gameMaker").parent().mouseover(function() {
-					$(this).children('.gameMaker').css("background-image", "url('img/gameMaker.gif')");
-				}).mouseleave(function(){
-						$(this).children('.gameMaker').css("background-image", "url('img/gameMaker.png')");
-					}
-				);
-				
+				showGifOnMouseHover = (name) => {
+					$("." + name).parent().mouseover(function () {
+						$(this).children("." + name).css("background-image", "url('img/" + name + ".gif')");
+					}).mouseleave(function () {
+							$(this).children("." + name).css("background-image", "url('img/" + name + ".png')");
+						}
+					);
+				}
+				["sysDR", "spaceInvaders", "vaispace", "stars", "glecuntech", "gameMaker", "sibyllaReward"]
+					.forEach(value => showGifOnMouseHover(value))
 			}
         }
 	});
