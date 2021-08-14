@@ -195,6 +195,7 @@
 		<groupe>
 			<nom>Connaissances non avancées</nom>
 			<competence><nom>Vue.js</nom></competence>
+			<competence><nom>Svelte</nom></competence>
 			<competence><nom>Wordpress</nom></competence>
 			<competence><nom>VertX</nom></competence>
 			<competence><nom>ElasticSearch</nom></competence>
