@@ -103,35 +103,40 @@ div.clear{
 
 .header .div_img {
 	float: left;
-	width: 25%;
+	width: 24%;
+	margin-left: 1%;
 	text-align: center;
 }
 
-.header .img {
-	height: 300px;
+.header .me {
+	height: 280px;
+	aspect-ratio: 1/1;
 	margin-top: 65px;
 	border: 6px solid white;
 	margin-bottom: 10px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
 }
 
-@media screen and (max-width: 1050px) {
-	.header .img {
+@media screen and (max-width: 1205px) {
+	.header .me {
 		margin-top: 125px;
-		height: 250px;
+		height: 190px;
 	}
 }
 
 @media screen and (max-width: 880px) {
-	.header .img {
+	.header .me {
 		margin-top: 175px;
-		height: 200px;
+		height: 170px;
 	}
 }
 
 @media screen and (max-width: 730px) {
-	.header .img {
+	.header .me {
 		margin-top: 190px;
-		height: 150px;
+		height: 130px;
 	}
 }
 
@@ -406,8 +411,9 @@ div.clear{
 		font-weight: bold;
 	}
 
-	.header .img {
+	.header .me {
 		margin-top: 154px;
+		height: 250px;
 		border: 6px solid #4cc6ff;
 	}
 

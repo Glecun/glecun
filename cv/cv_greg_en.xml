@@ -14,8 +14,8 @@
 		<adresse>Eaubonne, 95600</adresse>
 		<telephone/>
 		<url_site>http://glecun.fr</url_site>
-		<email>gregoire.lecun@free.fr</email>
-		<url_photo>http://glecun.fr/img/me2.jpg</url_photo>
+		<email>gregoire.lecun@gmail.com</email>
+		<url_photo>http://glecun.fr/img/me.jpg</url_photo>
 	</general>
 	<formations>
 		<diplome>
@@ -34,7 +34,7 @@
 	<realisations>
 		<projet>
 			<nom>ColorLine</nom>
-			<lieu>Personnal project</lieu>
+			<lieu>Personal project</lieu>
 			<date>
 				<jour></jour>
 				<mois></mois>
@@ -45,7 +45,7 @@
 		</projet>
 		<projet>
 			<nom>GlecunTech</nom>
-			<lieu>Personnal project</lieu>
+			<lieu>Personal project</lieu>
 			<date>
 				<jour></jour>
 				<mois></mois>
@@ -78,7 +78,7 @@
 		</projet>
 		<projet>
 			<nom>Pygame Games</nom>
-			<lieu>Personnal Project</lieu>
+			<lieu>Personal Project</lieu>
 			<date>
 				<jour>01</jour>
 				<mois>March</mois>

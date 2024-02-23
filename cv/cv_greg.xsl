@@ -78,7 +78,7 @@
 				
 					<div class="div_img" typeof="foaf:Image" rev="foaf:depiction">
 						<xsl:variable name= "url_photo" select="xsi:cv/xsi:general/xsi:url_photo/text()"/>
-						<img class="img" property="foaf:img" alt="" src="{$url_photo}" />
+						<div class="me" style="background-image: url('{$url_photo}')"></div>
 					</div>
 					<div class="clear"/>
 				</div>
