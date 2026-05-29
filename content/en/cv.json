@@ -1,0 +1,41 @@
+{
+  "summary": "Full-stack web developer with a strong front-end focus.",
+  "experiences": [
+    {
+      "role": "Front-End Web Developer",
+      "company": "Malt",
+      "period": "February 2022 - today",
+      "description": "Contributed to the marketplace in a European team, worked on the design system, and collaborated with product and data teams."
+    },
+    {
+      "role": "Full-Stack Web Developer",
+      "company": "VIDAL",
+      "period": "September 2017 - February 2022",
+      "description": "Built Java/Angular web applications for scientific use cases with TDD and pair programming practices."
+    },
+    {
+      "role": "Java / PHP Web Developer",
+      "company": "Foncia Group",
+      "period": "2013 - 2017",
+      "description": "Apprenticeship in software engineering, maintenance work, and modernization projects."
+    }
+  ],
+  "education": [
+    {
+      "name": "Software Engineering Degree",
+      "school": "Sup'Galilee",
+      "period": "2014 - 2017"
+    },
+    {
+      "name": "Computer Science Diploma",
+      "school": "IUT Villetaneuse",
+      "period": "2012 - 2014"
+    }
+  ],
+  "skills": {
+    "languages_frameworks": ["Vue.js", "Nuxt", "Java", "Kotlin", "Angular", "React"],
+    "testing": ["Jest", "JUnit", "AssertJ", "Mockito", "CodeceptJS"],
+    "tools": ["Git", "Docker", "Intellij", "Gradle", "Npm"],
+    "database": ["MongoDB", "PostgreSQL", "BigQuery"]
+  }
+}

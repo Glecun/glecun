@@ -1,0 +1,89 @@
+{
+  "profile": {
+    "name": "Gregoire Le Cun",
+    "title": "Full-Stack Web Developer @ Malt",
+    "location": "Eaubonne, 95600",
+    "email": "gregoire.lecun@gmail.com",
+    "website": "https://glecun.fr",
+    "linkedin": "https://fr.linkedin.com/pub/gr%C3%A9goire-le-cun/ab/298/2a4"
+  },
+  "about": {
+    "paragraphs": [
+      "I have been passionate about software engineering since 2012 and I mainly build modern web applications.",
+      "I like turning personal ideas into real projects to discover new technologies and keep improving.",
+      "I value teamwork, knowledge sharing, and collaboration in international environments."
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Front-End Web Developer",
+      "company": "Malt",
+      "period": "February 2022 - today"
+    },
+    {
+      "title": "Full-Stack Web Developer",
+      "company": "VIDAL",
+      "period": "September 2017 - February 2022"
+    },
+    {
+      "title": "Computer Networks and Software Engineering Degree",
+      "company": "Sup'Galilee",
+      "period": "2014 - 2017"
+    },
+    {
+      "title": "Computer Science Diploma",
+      "company": "IUT Villetaneuse",
+      "period": "2012 - 2014"
+    }
+  ],
+  "skills": [
+    "Nuxt",
+    "Vue.js",
+    "Java",
+    "Kotlin",
+    "TypeScript",
+    "Docker",
+    "Git",
+    "TDD"
+  ],
+  "projects": [
+    {
+      "title": "StonksFarmer",
+      "description": "Farm management game built with Unity and a Java Spring Boot API.",
+      "year": "2021",
+      "links": [
+        {
+          "label": "API GitHub",
+          "url": "https://github.com/Glecun/farmer-game-api"
+        }
+      ]
+    },
+    {
+      "title": "Soundboard Electron",
+      "description": "Desktop soundboard app built with Electron and React.",
+      "year": "2021",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Glecun/soundboard"
+        }
+      ]
+    },
+    {
+      "title": "Sibylla Reward",
+      "description": "Firebase/Svelte proof of concept to display corporation badges.",
+      "year": "2020",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Glecun/sibylla-reward"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "city": "Eaubonne",
+    "email": "gregoire.lecun@gmail.com",
+    "linkedin": "https://fr.linkedin.com/pub/gr%C3%A9goire-le-cun/ab/298/2a4"
+  }
+}

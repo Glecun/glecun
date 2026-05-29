@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "about": "A propos",
+    "experience": "Experiences",
+    "skills": "Competences",
+    "projects": "Realisations",
+    "contact": "Contact",
+    "cv": "CV"
+  },
+  "common": {
+    "viewCv": "Voir le CV",
+    "backHome": "Retour a l'accueil",
+    "language": "Langue"
+  }
+}

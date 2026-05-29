@@ -1,0 +1,89 @@
+{
+  "profile": {
+    "name": "Gregoire Le Cun",
+    "title": "Developpeur Web Full-Stack @ Malt",
+    "location": "Eaubonne, 95600",
+    "email": "gregoire.lecun@gmail.com",
+    "website": "https://glecun.fr",
+    "linkedin": "https://fr.linkedin.com/pub/gr%C3%A9goire-le-cun/ab/298/2a4"
+  },
+  "about": {
+    "paragraphs": [
+      "Passionne par l'informatique depuis 2012, je travaille principalement sur des applications web modernes.",
+      "J'aime concretiser mes idees personnelles pour tester de nouvelles technologies et progresser en continu.",
+      "J'apprecie le travail en equipe, le partage des bonnes pratiques et la collaboration en contexte international."
+    ]
+  },
+  "experiences": [
+    {
+      "title": "Developpeur Web Front-End",
+      "company": "Malt",
+      "period": "Fevrier 2022 - aujourd'hui"
+    },
+    {
+      "title": "Developpeur Web Full-Stack",
+      "company": "VIDAL",
+      "period": "Septembre 2017 - Fevrier 2022"
+    },
+    {
+      "title": "Diplome d'ingenieur Informatique & Reseaux",
+      "company": "Sup'Galilee",
+      "period": "2014 - 2017"
+    },
+    {
+      "title": "DUT Informatique",
+      "company": "IUT Villetaneuse",
+      "period": "2012 - 2014"
+    }
+  ],
+  "skills": [
+    "Nuxt",
+    "Vue.js",
+    "Java",
+    "Kotlin",
+    "TypeScript",
+    "Docker",
+    "Git",
+    "TDD"
+  ],
+  "projects": [
+    {
+      "title": "StonksFarmer",
+      "description": "Jeu de gestion Unity avec API Java Spring Boot.",
+      "year": "2021",
+      "links": [
+        {
+          "label": "GitHub API",
+          "url": "https://github.com/Glecun/farmer-game-api"
+        }
+      ]
+    },
+    {
+      "title": "Soundboard Electron",
+      "description": "Application desktop de soundboard en Electron + React.",
+      "year": "2021",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Glecun/soundboard"
+        }
+      ]
+    },
+    {
+      "title": "Sibylla Reward",
+      "description": "POC Firebase/Svelte pour afficher les medailles d'une corporation.",
+      "year": "2020",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Glecun/sibylla-reward"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "city": "Eaubonne",
+    "email": "gregoire.lecun@gmail.com",
+    "linkedin": "https://fr.linkedin.com/pub/gr%C3%A9goire-le-cun/ab/298/2a4"
+  }
+}
