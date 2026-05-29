@@ -6,11 +6,14 @@ import enSite from '../../content/en/site.json'
 import frCv from '../../content/fr/cv.json'
 import enCv from '../../content/en/cv.json'
 
+type SiteContent = typeof frSite
+type CvContent = typeof frCv
+
 export function useSiteContent() {
   const { locale } = useI18n()
 
-  const site = computed(() => (locale.value === 'fr' ? frSite : enSite))
-  const cv = computed(() => (locale.value === 'fr' ? frCv : enCv))
+  const site = computed<SiteContent>(() => (locale.value === 'fr' ? frSite : enSite))
+  const cv = computed<CvContent>(() => (locale.value === 'fr' ? frCv : enCv))
 
   return { site, cv }
 }
