@@ -14,6 +14,8 @@ html {
 
 body {
   background-color: var(--background);
+  /* TODO compare and save texture in project */
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
   color: var(--gray-12);
   font-family: var(--font-body);
   line-height: 1.6;
@@ -29,7 +31,7 @@ h5,
 h6 {
   font-family: var(--font-title);
   color: var(--gray-12);
-  line-height: 1.2;
+  line-height: 1;
 }
 
 p {

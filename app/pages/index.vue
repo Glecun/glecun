@@ -78,5 +78,3 @@
 const { t } = useI18n();
 const { site } = useSiteContent();
 </script>
-
-<style></style>

@@ -1,13 +1,11 @@
+/* Primitives */
 :root {
   --background: #fffdf5;
-}
 
-:root {
   --font-title: "Inter", sans-serif;
   --font-body: "JetBrains Mono", monospace;
-}
 
-:root {
+  /* Green */
   --green-1: #fbfefb;
   --green-2: #f5fbf6;
   --green-3: #e8f7e9;
@@ -38,9 +36,8 @@
   --green-surface: #f3faf4cc;
   --green-indicator: #46a758;
   --green-track: #46a758;
-}
 
-:root {
+  /* Gray */
   --gray-1: #fbfcff;
   --gray-2: #f8f9fc;
   --gray-3: #eeeff6;
@@ -71,4 +68,80 @@
   --gray-surface: #ffffffcc;
   --gray-indicator: #898a8b;
   --gray-track: #898a8b;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.5rem; /* 24px */
+  --space-6: 2rem; /* 32px */
+  --space-7: 3rem; /* 48px */
+  --space-8: 4rem; /* 64px */
+  --space-9: 6rem; /* 96px */
+  --space-10: 8rem; /* 128px */
+
+  /* Typography scale */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-md: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem; /* 36px */
+  --text-5xl: 3rem; /* 48px */
+
+  /* Font weight */
+  --weight-normal: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px var(--gray-a3);
+  --shadow-md: 0 4px 8px var(--gray-a3), 0 1px 2px var(--gray-a4);
+  --shadow-lg: 0 8px 24px var(--gray-a3), 0 2px 4px var(--gray-a4);
+  --shadow-xl: 0 16px 48px var(--gray-a4), 0 4px 8px var(--gray-a4);
+
+  /* Transitions */
+  --transition-fast: 100ms ease;
+  --transition-base: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  /* Z-index */
+  --z-base: 0;
+  --z-raised: 10;
+  --z-overlay: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+}
+
+/* Semantic */
+:root {
+  /* Texte */
+  --color-text: var(--gray-12);
+  --color-text-muted: var(--gray-11);
+  --color-text-subtle: var(--gray-9);
+
+  /* Surfaces */
+  --color-bg: var(--background);
+  --color-surface: var(--gray-1);
+  --color-surface-raised: var(--gray-2);
+
+  /* Bordures */
+  --color-border: var(--gray-4);
+  --color-border-strong: var(--gray-7);
+
+  /* Accent */
+  --color-accent: var(--green-9);
+  --color-accent-hover: var(--green-10);
+  --color-accent-subtle: var(--green-3);
+  --color-accent-text: var(--green-11);
 }

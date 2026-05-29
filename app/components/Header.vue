@@ -1,7 +1,8 @@
 <template>
   <header class="header">
-    <img src="/assets/img/logo.png" alt="Logo" class="logo" />
-    <nav class="nav">
+    <!-- TODO use webp or svg -->
+    <img src="/assets/img/logo.png" alt="Logo" class="header__logo" />
+    <nav class="header__nav">
       <a v-for="item in navItems" :key="item.id" :href="`#${item.id}`">{{
         item.label
       }}</a>
@@ -23,14 +24,42 @@ const { site } = defineProps<{
   site: SiteContent;
 }>();
 </script>
-<style>
+
+<style lang="scss">
 .header {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 10;
-}
-.logo {
-  width: 100px;
-  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: var(--space-2);
+
+  &__logo {
+    width: 50px;
+  }
+
+  &__nav {
+    /* TODO burger menu */
+    display: none;
+    margin-left: auto;
+
+    @include sm {
+      display: flex;
+      gap: var(--space-4);
+      padding-right: var(--space-4);
+      font-size: 0.9rem;
+    }
+
+    @include md {
+      gap: var(--space-5);
+      padding-right: var(--space-5);
+      font-size: 1rem;
+    }
+
+    @include xl {
+      font-size: 1.2rem;
+    }
+  }
 }
 </style>

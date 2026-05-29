@@ -21,6 +21,15 @@ export default defineNuxtConfig({
     },
   },
   css: ["~/assets/css/theme.css", "~/assets/css/global.css"],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "~/assets/css/breakpoints" as *;`,
+        },
+      },
+    },
+  },
   i18n: {
     langDir: "locales",
     defaultLocale: "fr",
