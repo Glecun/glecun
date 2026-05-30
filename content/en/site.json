@@ -1,6 +1,7 @@
 {
   "profile": {
-    "name": "Gregoire Le Cun",
+    "firstname": "Grégoire",
+    "lastname": "Le Cun",
     "title": "Full-Stack Web Developer @ Malt",
     "location": "Eaubonne, 95600",
     "email": "gregoire.lecun@gmail.com",

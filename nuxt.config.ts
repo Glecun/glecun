@@ -7,20 +7,21 @@ export default defineNuxtConfig({
     baseURL: "/v2/",
     head: {
       link: [
-        { rel: "preconnect", href: "https://fonts.googleapis.com" },
-        {
-          rel: "preconnect",
-          href: "https://fonts.gstatic.com",
-          crossorigin: "",
-        },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap",
-        },
+        { rel: "preload", as: "image", href: "/v2/img/logo.webp" },
+        { rel: "preload", as: "image", href: "/v2/img/me.webp" },
+        { rel: "preload", as: "image", href: "/v2/img/clean-gray-paper.webp" },
       ],
     },
   },
-  css: ["~/assets/css/theme.css", "~/assets/css/global.css"],
+  css: [
+    "@fontsource/inter/400.css",
+    "@fontsource/inter/600.css",
+    "@fontsource/inter/700.css",
+    "@fontsource/jetbrains-mono/400.css",
+    "@fontsource/jetbrains-mono/600.css",
+    "~/assets/css/theme.css",
+    "~/assets/css/global.css",
+  ],
   vite: {
     css: {
       preprocessorOptions: {

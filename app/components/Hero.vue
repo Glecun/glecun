@@ -25,15 +25,20 @@
         <p class="hero__subtitle">{{ site.profile.title }}</p>
       </div>
       <div>
-        <!-- TODO use webp or svg -->
-        <img class="hero__img" src="/assets/img/me.jpg" />
+        <img
+          class="hero__img"
+          width="350"
+          height="320"
+          src="/img/me.webp"
+          fetchpriority="high"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { onMounted } from "vue";
 
 const { site } = defineProps<{
   site: SiteContent;
@@ -53,21 +58,21 @@ const lines: Line[] = [
     id: 0,
     points: "0,300 400,0",
     duration: 0.1,
-    delay: 0.2,
+    delay: 0.4,
     width: 3,
   },
   {
     id: 1,
     points: "540,0 300,600",
     duration: 0.08,
-    delay: 0.8,
+    delay: 1,
     width: 5,
   },
   {
     id: 2,
     points: "380,600 1000,280",
     duration: 0.06,
-    delay: 0.94,
+    delay: 1.14,
     width: 2,
   },
 ];
@@ -159,6 +164,8 @@ onMounted(() => {
     border-radius: 50%;
     border: 6px solid var(--green-10);
     width: min(350px, 80svw);
+    height: auto;
+    aspect-ratio: 169/154;
 
     @include md {
       width: 300px;

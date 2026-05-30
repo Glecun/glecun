@@ -1,7 +1,13 @@
 <template>
   <header class="header">
-    <!-- TODO use webp or svg -->
-    <img src="/assets/img/logo.png" alt="Logo" class="header__logo" />
+    <img
+      src="/img/logo.webp"
+      alt="Logo"
+      class="header__logo"
+      width="50"
+      height="50"
+      fetchpriority="high"
+    />
     <nav class="header__nav">
       <a v-for="item in navItems" :key="item.id" :href="`#${item.id}`">{{
         item.label

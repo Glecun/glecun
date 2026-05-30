@@ -2,8 +2,8 @@
 :root {
   --background: #fffdf5;
 
-  --font-title: "Inter", sans-serif;
-  --font-body: "JetBrains Mono", monospace;
+  --font-title: "Inter", system-ui, -apple-system, sans-serif;
+  --font-body: "JetBrains Mono", ui-monospace, "Cascadia Code", monospace;
 
   /* Green */
   --green-1: #fbfefb;
